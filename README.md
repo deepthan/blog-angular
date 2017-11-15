@@ -20,9 +20,10 @@
 
 * [Angular配置文件之环境配置](https://github.com/deepthan/blog-angular/issues/2)
 * [Angular配置文件之.angular-cli.json介绍 ](https://github.com/deepthan/blog-angular/issues/3)
+
 方法介绍
 ------
-
+as
 
 
 
