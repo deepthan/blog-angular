@@ -10,12 +10,12 @@
 
 基础概念
 ------
-#### * Angularjs与Angular概念区分
-* 昵称：果冻虾仁
+* Angularjs与Angular概念区分
+
 文件配置详解
 ------
-#### * Angular配置文件之环境配置
-#### * Angular配置文件之.angular-cli.json介绍 
+* Angular配置文件之环境配置
+* Angular配置文件之.angular-cli.json介绍 
 方法介绍
 ------
 
