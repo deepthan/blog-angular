@@ -13,13 +13,13 @@
 
 基础概念
 ------
-* [Angularjs与Angular概念区分](#1)
+* [Angularjs与Angular概念区分](https://github.com/deepthan/blog-angular/issues/1)
 
 文件配置详解
 ------
-* Angular配置文件之环境配置
-* Angular配置文件之.angular-cli.json介绍 
 
+* [Angular配置文件之环境配置](https://github.com/deepthan/blog-angular/issues/2)
+* [Angular配置文件之.angular-cli.json介绍 ](https://github.com/deepthan/blog-angular/issues/3)
 方法介绍
 ------
 
