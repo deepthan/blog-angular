@@ -7,13 +7,18 @@
 |E-mail|1296936373@qq.com
 ****
 
-## 目录
 
 基础概念
 ------
+#### 1. Angularjs与Angular概念区分
 
 文件配置详解
+------
+#### 1. Angular配置文件之环境配置
+#### 2. Angular配置文件之.angular-cli.json介绍 
+方法介绍
+------
 
-#### 1. Angularjs与Angular概念区分
-#### 2. Angular配置文件之环境配置
-#### 3. Angular配置文件之.angular-cli.json介绍 
+
+
+
