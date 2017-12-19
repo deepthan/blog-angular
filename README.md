@@ -25,7 +25,8 @@
  
 
 * [路由预加载--预先加载延迟模块](https://github.com/deepthan/blog-angular/issues/4)
-..
+
+* [Angular2+去除url中的#](https://github.com/deepthan/blog-angular/issues/5)
 
 readme写作方法
 ------
