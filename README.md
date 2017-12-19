@@ -23,6 +23,7 @@
 * [Angular配置文件之.angular-cli.json介绍 ](https://github.com/deepthan/blog-angular/issues/3)
 
 方法介绍
+------
 
 * [路由预加载--预先加载延迟模块](https://github.com/deepthan/blog-angular/issues/4)
 
