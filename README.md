@@ -38,4 +38,3 @@ readme写作方法
 * [github上的](https://github.com/guodongxiaren/README#%E6%A8%AA%E7%BA%BF)
 * [博客上的](http://blog.csdn.net/guodongxiaren/article/details/23690801)
 
-
