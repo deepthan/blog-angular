@@ -31,6 +31,7 @@
 
 * [Angular2+去除url中的#](https://github.com/deepthan/blog-angular/issues/5)
 * [ng-content在一个节点中插入另外的节点](https://github.com/deepthan/blog-angular/issues/6)
+* [Angular如何操作DOM?](https://github.com/deepthan/blog-angular/issues/9)
 
 
 readme写作方法
