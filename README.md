@@ -15,6 +15,8 @@
 ------
 * [Angularjs与Angular概念区分](https://github.com/deepthan/blog-angular/issues/1)
 * [白话Angular词汇](https://github.com/deepthan/blog-angular/issues/7)
+* [AOT编译](https://github.com/deepthan/blog-angular/issues/8)
+
 
 文件配置详解
 ------
