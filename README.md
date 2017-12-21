@@ -10,7 +10,6 @@
 
 ****
 
-
 基础概念
 ------
 * [Angularjs与Angular概念区分](https://github.com/deepthan/blog-angular/issues/1)
