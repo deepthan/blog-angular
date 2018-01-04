@@ -34,7 +34,7 @@
 * [Angular开发必备技巧（持续更新）](https://github.com/deepthan/blog-angular/issues/10)
 
 博客搭建
-* [如何用Angular搭建githubPages或码云page](https://github.com/deepthan/blog-angular/issues/11)
+* [如何用Angular搭建githubPages或码云page](https://github.com/deepthan/blog-angular/issues/12)
 
 
 readme写作方法
