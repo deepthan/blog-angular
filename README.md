@@ -37,7 +37,7 @@
 
 方法名 | 方法名
 ---|---
-[ngClass](https://github.com/deepthan/blog-angular/issues/13) | |
+[ngClass](https://github.com/deepthan/blog-angular/issues/13) | [父子组件传递信息](https://github.com/deepthan/blog-angular/issues/14)|
 
 
 
