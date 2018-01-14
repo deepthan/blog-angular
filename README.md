@@ -33,16 +33,12 @@
 * [Angular如何操作DOM?](https://github.com/deepthan/blog-angular/issues/9)
 * [Angular开发必备技巧（持续更新）](https://github.com/deepthan/blog-angular/issues/10)
 
- 函数用法
-
-方法名 | 方法名
----   |  ---
-|啊| |
+## API
 
 方法名 | 方法名
 ---|---
-row 1 col 1 | row 1 col 2
-row 2 col 1 | row 2 col 2
+[ngClass](https://github.com/deepthan/blog-angular/issues/13) | |
+
 
 
 ## 博客搭建
