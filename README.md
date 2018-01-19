@@ -11,22 +11,17 @@
 
 ****
 
-### 基础概念
-------
+## 基础概念
 * [Angularjs与Angular概念区分](https://github.com/deepthan/blog-angular/issues/1)
 * [白话Angular词汇](https://github.com/deepthan/blog-angular/issues/7)
 * [AOT编译](https://github.com/deepthan/blog-angular/issues/8)
 
 
-文件配置详解
-------
-
+## 文件配置详解
 * [Angular配置文件之环境配置](https://github.com/deepthan/blog-angular/issues/2)
 * [Angular配置文件之.angular-cli.json介绍 ](https://github.com/deepthan/blog-angular/issues/3)
 
-方法介绍
-------
-
+## 方法介绍
 * [路由预加载--预先加载延迟模块](https://github.com/deepthan/blog-angular/issues/4)
 * [Angular2+去除url中的#](https://github.com/deepthan/blog-angular/issues/5)
 * [ng-content在一个节点中插入另外的节点](https://github.com/deepthan/blog-angular/issues/6)
@@ -43,8 +38,7 @@
 * [如何用Angular搭建githubPages或码云page](https://github.com/deepthan/blog-angular/issues/12)
 
 
-readme写作方法
-------
+## readme写作方法
 * [github上的](https://github.com/guodongxiaren/README#%E6%A8%AA%E7%BA%BF)
 * [博客上的](http://blog.csdn.net/guodongxiaren/article/details/23690801)
 
@@ -56,7 +50,6 @@ readme写作方法
 | --------- | --------- |
 |   [英文官网](https://angular.io/)   / [官网源码](https://github.com/angular/angular)       | [中文官网](https://www.angular.cn/) / [官网源码](https://github.com/angular/angular-cn) |
 |   [Angular cli地址](https://github.com/angular/angular-cli)| [脚手架用法wiki](https://github.com/angular/angular-cli/wiki) |
-
 
 
 ## 开发环境配置
