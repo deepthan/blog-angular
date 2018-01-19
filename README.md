@@ -34,11 +34,9 @@
 * [Angular开发必备技巧（持续更新）](https://github.com/deepthan/blog-angular/issues/10)
 
 ## API
-
 方法名 | 方法名
 ---|---
 [ngClass](https://github.com/deepthan/blog-angular/issues/13) | [父子组件传递信息](https://github.com/deepthan/blog-angular/issues/14)|
-
 
 
 ## 博客搭建
