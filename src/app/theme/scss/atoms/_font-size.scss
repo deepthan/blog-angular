@@ -1,0 +1,19 @@
+// Font size
+// --------------------------------------------------
+
+
+// Map $headings
+// %#{$prop}
+@each $prop, $value in $headings {
+  %#{$prop} {
+    font-size: $value;
+  }
+}
+
+// Custom font-size
+// %fs-#{$i}
+@for $i from 12 through 36 {
+  %fs-#{$i} {
+    font-size: $i / 10 + rem;
+  }
+}

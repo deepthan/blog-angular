@@ -1,0 +1,20 @@
+// Scaffolding
+// --------------------------------------------------
+
+
+// Separator
+%separator {
+  margin: -0.5rem 0 1.5rem;
+  border-top: .1rem solid $gray-light;
+}
+
+%radius-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+%border-radius-img {
+  @extend %radius-img;
+  border: .1rem solid rgba($gray-light, .2);
+}
