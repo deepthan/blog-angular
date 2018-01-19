@@ -63,7 +63,6 @@
 | --------- | --------- |
 | Angular动画是基于标准的Web动画API[Web Animations API](https://drafts.csswg.org/web-animations/)构建的|    |
 
-
   
 ## 配置完成的项目  
 1. 这个是配置好的可以直接下载下来用的：  
@@ -71,7 +70,6 @@
 3. css 封装，去除url中的#，路由守卫，目结结构（怎样才能找起来方便不乱）
 
 ## UI 库
-
 |                   用途         |                  插件地址                                                      |
 |           ---------            |                   ---------                                                   |
 |   阿里开源的ui库                |        [ng-zorro](https://ng.ant.design/#/docs/angular/introduce)    |
