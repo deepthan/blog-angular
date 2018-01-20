@@ -27,6 +27,7 @@
 * [ng-content在一个节点中插入另外的节点](https://github.com/deepthan/blog-angular/issues/6)
 * [Angular如何操作DOM?](https://github.com/deepthan/blog-angular/issues/9)
 * [Angular开发必备技巧（持续更新）](https://github.com/deepthan/blog-angular/issues/10)
+* [Angular动画怎么写](https://github.com/deepthan/blog-angular/issues/15)
 
 ## API
 方法名 | 方法名
