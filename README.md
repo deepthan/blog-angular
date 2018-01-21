@@ -96,7 +96,6 @@
 |   基于Angular4+的后台管理模板  |        [ngx-admin](https://github.com/akveo/ngx-admin)    |
 
 
-
 ## 系列教程
 |                   用途                |                  地址                                                                      |
 |           ---------                  |                   ---------                                                                  |
@@ -120,17 +119,19 @@
 |           ---------                                                                     |                   ---------                                                   |
 |   [angular2 随便问(Ask me anything!)](https://github.com/kittencup/angular2-ama-cn)      |        [stackoverflow：英文的提问社区，很强大](https://stackoverflow.com/)               |
 
-
 ## 升级
 | 说明 | 地址|
 | --- | --- |
 | A版本到B版本有哪些改变 | [Angular Update Guide](https://angular-update-guide.firebaseapp.com/)|
 | angular更新记录  | [changeLog](https://github.com/angular/angular/blob/master/CHANGELOG.md) |
 
+
 ## Angular教程
 掘金上的、简书上的
 
+
 ## 个人博客中好的Agular教程
+
 
 ## angular 如何解决seo问题
 | 地址 | 地址 |
@@ -145,6 +146,7 @@
 |  手把手教你用ngrx管理Angular状态 | [中文，有点长](https://github.com/fezaoduke/TranslationInstitute/blob/master/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E7%94%A8ngrx%E7%AE%A1%E7%90%86Angular%E7%8A%B6%E6%80%81.md)、[英文版](https://auth0.com/blog/managing-state-in-angular-with-ngrx-store/)  |
 | ngrx 管理angular里面的数据 类似于redux          | [ngrx](https://github.com/ngrx/platform) |
 |    rxjs github地址                                      |  [rxjs](https://github.com/ReactiveX/rxjs) | 
+
 
 ## typescript
 | 说明 | 地址 |
