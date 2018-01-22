@@ -105,7 +105,7 @@
 |   里面介绍了使用方法，相关概念等，较全。  |        [Angular 2 Training 中文版](https://zhangchen915.gitbooks.io/angular2-training/content/content/vs_react.html) |
 |   质量较高的系列教程                    |              [Angular 4.x 修仙之路](https://segmentfault.com/a/1190000008754631?t=1232145435)    |
 |   现已成书，较良心的教程                 |      [Angular 2.x 从0到1](https://github.com/wpcfan/awesome-tutorials/blob/master/angular2/ng2-tut/README.md) |
-
+|   汇智网的视频教学                     |     [Angular 2入门](http://www.hubwiz.com/course/5599d367a164dd0d75929c76/) |
 
 ## 学习笔记
 |                   地址       |                  地址                                                      |
