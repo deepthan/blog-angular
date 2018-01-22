@@ -145,11 +145,9 @@
 ## RxJS
 |                   项目简介       |                  项目地址                                                  |
 |           ---------          |                   ---------                                                   |
-|   RxJS 中文文档（小部分未翻译完全）          |        [RxJS 中文文档](http://cn.rx.js.org/)                             |
-|   RxJS 中文学习资料汇总           |        [RxJS 中文社区](https://github.com/RxJS-CN)                             |
+|   [RxJS 英文文档](http://reactivex.io/rxjs/)  /  [RxJS 中文文档](http://cn.rx.js.org/)         |       [rxjs github地址](https://github.com/ReactiveX/rxjs)   |      
+|   [RxJS 中文社区](https://github.com/RxJS-CN)         |   [ngrx 管理angular里面的数据 类似于redux](https://github.com/ngrx/platform)   |
 |  手把手教你用ngrx管理Angular状态 | [中文，有点长](https://github.com/fezaoduke/TranslationInstitute/blob/master/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E7%94%A8ngrx%E7%AE%A1%E7%90%86Angular%E7%8A%B6%E6%80%81.md)、[英文版](https://auth0.com/blog/managing-state-in-angular-with-ngrx-store/)  |
-| ngrx 管理angular里面的数据 类似于redux          | [ngrx](https://github.com/ngrx/platform) |
-|    rxjs github地址                                      |  [rxjs](https://github.com/ReactiveX/rxjs) | 
 
 
 ## typescript
