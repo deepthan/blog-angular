@@ -29,6 +29,10 @@
 * [Angular开发必备技巧（持续更新）](https://github.com/deepthan/blog-angular/issues/10)
 * [Angular动画怎么写](https://github.com/deepthan/blog-angular/issues/15)
 
+方法名 | 方法名
+---|---
+[HTML里面写变量方法汇总](https://github.com/deepthan/blog-angular/issues/16) | [不操作DOM改变DOM属性](https://github.com/deepthan/blog-angular/issues/17) |
+
 ## API
 方法名 | 方法名
 ---|---
