@@ -22,10 +22,10 @@
 * [Angular配置文件之.angular-cli.json介绍 ](https://github.com/deepthan/blog-angular/issues/3)
 
 ## 方法介绍
-方法名 | 方法名
----|---
 *  [Angular开发必备技巧（持续更新）](https://github.com/deepthan/blog-angular/issues/10)
 
+方法名 | 方法名
+---|---
 | [路由预加载--预先加载延迟模块](https://github.com/deepthan/blog-angular/issues/4) | [Angular2+去除url中的#](https://github.com/deepthan/blog-angular/issues/5)  |
 | [ng-content在一个节点中插入另外的节点](https://github.com/deepthan/blog-angular/issues/6)   |  [Angular动画怎么写](https://github.com/deepthan/blog-angular/issues/15)    |
 | [Angular如何操作DOM?](https://github.com/deepthan/blog-angular/issues/9)]     |   [不直接操作DOM改变DOM属性](https://github.com/deepthan/blog-angular/issues/17) |
