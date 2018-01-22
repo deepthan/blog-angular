@@ -130,12 +130,6 @@
 | angular更新记录  | [changeLog](https://github.com/angular/angular/blob/master/CHANGELOG.md) |
 
 
-## Angular教程
-掘金上的、简书上的
-
-
-## 个人博客中好的Agular教程
-
 
 ## angular 如何解决seo问题
 | 地址 | 地址 |
@@ -147,7 +141,7 @@
 |           ---------          |                   ---------                                                   |
 |   [RxJS 英文文档](http://reactivex.io/rxjs/)  /  [RxJS 中文文档](http://cn.rx.js.org/)         |       [rxjs github地址](https://github.com/ReactiveX/rxjs)   |      
 |   [RxJS 中文社区](https://github.com/RxJS-CN)         |   [ngrx 管理angular里面的数据 类似于redux](https://github.com/ngrx/platform)   |
-|  手把手教你用ngrx管理Angular状态 | [中文，有点长](https://github.com/fezaoduke/TranslationInstitute/blob/master/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E7%94%A8ngrx%E7%AE%A1%E7%90%86Angular%E7%8A%B6%E6%80%81.md)、[英文版](https://auth0.com/blog/managing-state-in-angular-with-ngrx-store/)  |
+|  手把手教你用ngrx管理Angular状态 | [中文版](https://github.com/fezaoduke/TranslationInstitute/blob/master/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E7%94%A8ngrx%E7%AE%A1%E7%90%86Angular%E7%8A%B6%E6%80%81.md)/[英文版](https://auth0.com/blog/managing-state-in-angular-with-ngrx-store/)  |
 
 
 ## typescript
