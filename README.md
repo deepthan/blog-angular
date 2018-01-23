@@ -47,7 +47,7 @@
 * [博客上的](http://blog.csdn.net/guodongxiaren/article/details/23690801)
 
 
-# Angular(2+)学习资源汇总
+# 其他学习资源
 
 ## 官网
 | 标题 | 标题 |
@@ -138,11 +138,12 @@
 
 ## RxJS
 |                   项目简介       |                  项目地址                                                  |
-|           ---------          |                   ---------                                                   |
+|           ---------          |                   ---------        
+| [Rxjs入门篇： 基本原理](https://rxjs-cn.github.io/rxjs5-ultimate-cn/)  |   |                                           |
 |   [RxJS 英文文档](http://reactivex.io/rxjs/)  /  [RxJS 中文文档](http://cn.rx.js.org/)         |       [rxjs github地址](https://github.com/ReactiveX/rxjs)   |      
 |   [RxJS 中文社区](https://github.com/RxJS-CN)         |   [ngrx 管理angular里面的数据 类似于redux](https://github.com/ngrx/platform)   |
 |  手把手教你用ngrx管理Angular状态 | [中文版](https://github.com/fezaoduke/TranslationInstitute/blob/master/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E7%94%A8ngrx%E7%AE%A1%E7%90%86Angular%E7%8A%B6%E6%80%81.md)/[英文版](https://auth0.com/blog/managing-state-in-angular-with-ngrx-store/)  |
-
+| [学习Rxjs操作符](https://rxjs-cn.github.io/learn-rxjs-operators/about/)    |    |
 
 ## typescript
 | 说明 | 地址 |
