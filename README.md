@@ -37,6 +37,11 @@
 ---|---
 [ngClass](https://github.com/deepthan/blog-angular/issues/13) | [父子组件传递信息](https://github.com/deepthan/blog-angular/issues/14)|
 
+动画API | 动画API
+---|---
+| [trigger](https://github.com/deepthan/blog-angular/issues/18) | [state](https://github.com/deepthan/blog-angular/issues/19) | 
+
+
 
 ## 博客搭建
 * [如何用Angular搭建githubPages或码云page](https://github.com/deepthan/blog-angular/issues/12)
