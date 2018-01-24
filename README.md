@@ -39,8 +39,8 @@
 
 动画API | 动画API
 ---|---
-| [trigger](https://github.com/deepthan/blog-angular/issues/18) | [state](https://github.com/deepthan/blog-angular/issues/19) | 
-
+| [trigger](https://github.com/deepthan/blog-angular/issues/18) | [state](https://github.com/deepthan/blog-angular/issues/19) |  
+| [transition](https://github.com/deepthan/blog-angular/issues/20) | [animate](https://github.com/deepthan/blog-angular/issues/21) | 
 
 
 ## 博客搭建
