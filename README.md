@@ -41,7 +41,7 @@
 ---|---
 | [trigger](https://github.com/deepthan/blog-angular/issues/18) | [state](https://github.com/deepthan/blog-angular/issues/19) |  
 | [transition](https://github.com/deepthan/blog-angular/issues/20) | [animate](https://github.com/deepthan/blog-angular/issues/21) | 
-
+| [style()](https://github.com/deepthan/blog-angular/issues/22)   | [keyframes](https://github.com/deepthan/blog-angular/issues/23) |
 
 ## 博客搭建
 * [如何用Angular搭建githubPages或码云page](https://github.com/deepthan/blog-angular/issues/12)
