@@ -15,7 +15,8 @@ import { HomeRoutingModule } from './home-routing.module';
 // Components
 import { HomeComponent } from './home.component';
 
-import { SharedModule } from '../../shared/shared.module'
+import { SharedModule } from '../../shared/shared.module';
+import { SliderComponent } from './slider/slider.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { SharedModule } from '../../shared/shared.module'
     SharedModule
   ],
   declarations: [
-    HomeComponent
-  ]
+    HomeComponent,
+    SliderComponent
+]
 })
 export class HomeModule { }
