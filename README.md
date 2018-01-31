@@ -37,7 +37,7 @@
 ---|---
 [ngClass](https://github.com/deepthan/blog-angular/issues/13) | [父子组件传递信息](https://github.com/deepthan/blog-angular/issues/14)|
 
-动画API | 动画API
+animation | animation
 ---|---
 | [trigger](https://github.com/deepthan/blog-angular/issues/18) | [state](https://github.com/deepthan/blog-angular/issues/19) |  
 | [transition](https://github.com/deepthan/blog-angular/issues/20) | [animate](https://github.com/deepthan/blog-angular/issues/21) | 
@@ -50,9 +50,9 @@
 * [如何用Angular搭建githubPages或码云page](https://github.com/deepthan/blog-angular/issues/12)
 
 
-## readme写作方法
+<!-- ## readme写作方法
 * [github上的](https://github.com/guodongxiaren/README#%E6%A8%AA%E7%BA%BF)
-* [博客上的](http://blog.csdn.net/guodongxiaren/article/details/23690801)
+* [博客上的](http://blog.csdn.net/guodongxiaren/article/details/23690801) -->
 
 
 # 其他学习资源
@@ -73,7 +73,7 @@
 ## 实现原理
 | 标题 | 标题 |
 | --------- | --------- |
-| Angular动画是基于标准的Web动画API[Web Animations API](https://drafts.csswg.org/web-animations/)构建的|    |
+| Angular动画基准：[Web Animations API](https://drafts.csswg.org/web-animations/)|    |
 
 <!--   
 ## 配置完成的项目  
@@ -92,15 +92,14 @@
 |   字体图标  | [Font Awesome （英）](http://fontawesome.io/icons/) 、[Font Awesome （中）](http://www.fontawesome.com.cn/) 、 [阿里的inconfont](http://iconfont.cn/)  |
 |   对 ng-zorro 做了一层封装的ui库 | [ng-alain](https://github.com/cipchk/ng-alain) | 
 
+
 ## 插件篇
 |           用途              |                    插件地址                                                     |
 |           ---------          |                   ---------                                                   |
 |   拖拽插件                   |       [ng2-dragula](https://github.com/valor-software/ng2-dragula)             |
-|   图表插件                    |       [ng2-charts](https://github.com/valor-software/ng2-charts)              |
+|   图表插件                    |       [ng2-charts](https://github.com/valor-software/ng2-charts)  / [ngx-echarts](https://github.com/xieziyu/ngx-echarts)          |
 |  上传插件                    |       [ng2-file-upload](https://github.com/valor-software/ng2-file-upload)     |
 |  select插件                 |        [ng2-select](https://github.com/valor-software/ng2-select)               |
-
-
 
 ## 案例项目(模板)
 |                   项目简介       |                  项目地址                                                      |
@@ -119,11 +118,11 @@
 |   现已成书，较良心的教程                 |      [Angular 2.x 从0到1](https://github.com/wpcfan/awesome-tutorials/blob/master/angular2/ng2-tut/README.md) |
 |   汇智网的视频教学                     |     [Angular 2入门](http://www.hubwiz.com/course/5599d367a164dd0d75929c76/) |
 
-## 学习笔记
+## 别人的 Angular 博客
 |                   地址       |                  地址                                                      |
 |           ---------          |                   ---------                                                   |
-|     [Angular 2+ 专栏 ](https://github.com/lizhonghui/blog)            |       [ng2-dragula](http://www.cnblogs.com/keatkeat/category/872790.html)             |
-|   [Angular2一小时快速入门, 慕课网](http://www.imooc.com/learn/789)      |       [ng2-charts](https://github.com/valor-software/ng2-charts)              |
+|     [Angular 2+ 专栏 ](https://github.com/lizhonghui/blogblog)            |            [Angular2一小时快速入门, 慕课网](http://www.imooc.com/learn/789)        |
+|  [angular 2 学习笔记](http://www.cnblogs.com/keatkeat/category/872790.html)  |            
 
 
 ## 提问交流社区
@@ -150,8 +149,7 @@
 | [Rxjs入门篇： 基本原理](https://rxjs-cn.github.io/rxjs5-ultimate-cn/)  |   |                                           |
 |   [RxJS 英文文档](http://reactivex.io/rxjs/)  /  [RxJS 中文文档](http://cn.rx.js.org/)         |       [rxjs github地址](https://github.com/ReactiveX/rxjs)   |      
 |   [RxJS 中文社区](https://github.com/RxJS-CN)         |   [ngrx 管理angular里面的数据 类似于redux](https://github.com/ngrx/platform)   |
-|  手把手教你用ngrx管理Angular状态 | [中文版](https://github.com/fezaoduke/TranslationInstitute/blob/master/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E7%94%A8ngrx%E7%AE%A1%E7%90%86Angular%E7%8A%B6%E6%80%81.md)/[英文版](https://auth0.com/blog/managing-state-in-angular-with-ngrx-store/)  |
-| [学习Rxjs操作符](https://rxjs-cn.github.io/learn-rxjs-operators/about/)    |    |
+|  手把手教你用ngrx管理Angular状态: [中文版](https://github.com/fezaoduke/TranslationInstitute/blob/master/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E7%94%A8ngrx%E7%AE%A1%E7%90%86Angular%E7%8A%B6%E6%80%81.md)/[英文版](https://auth0.com/blog/managing-state-in-angular-with-ngrx-store/)  | [学习Rxjs操作符](https://rxjs-cn.github.io/learn-rxjs-operators/about/)    |   
 
 ## typescript
 | 说明 | 地址 |
