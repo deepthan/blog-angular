@@ -1,23 +1,26 @@
-/***
- * 此为首页的模块
- * 
- * 
- * 
- * 
- * */ 
-
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-// Home routing
 import { HomeRoutingModule } from './home-routing.module';
-
-// Components
-import { HomeComponent } from './home.component';
-
 import { SharedModule } from '../../shared/shared.module';
-import { SliderComponent } from './slider/slider.component';
 
+import { HomeComponent } from './home.component';
+import { HomeContentComponent } from './home-content/home-content.component';
+import { SlideshowComponent } from './home-content/slideshow/slideshow.component';
+import { ChangeDotComponent } from './home-content/slideshow/change-dot/change-dot.component';
+import { NeedSzComponent } from './home-content/need-poetry/need-poetry.component';
+
+
+const HOME_COMPOENTS = [
+  HomeComponent,
+  HomeContentComponent,
+
+  SlideshowComponent,
+  ChangeDotComponent,
+
+  NeedSzComponent,
+
+]
 
 @NgModule({
   imports: [
@@ -26,8 +29,7 @@ import { SliderComponent } from './slider/slider.component';
     SharedModule
   ],
   declarations: [
-    HomeComponent,
-    SliderComponent
+    ...HOME_COMPOENTS
 ]
 })
 export class HomeModule { }

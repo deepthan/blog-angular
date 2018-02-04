@@ -7,12 +7,18 @@ import { NgZorroAntdModule } from 'ng-zorro-antd';
 
 import { HeaderComponent, FooterComponent, NgContentComponent } from './components/index';
 
+import { WindowRefService } from './service/return-window.service';
+
+
 const SHARED_COMPONENTS = [
   HeaderComponent,
   FooterComponent,
   NgContentComponent
 ]
 
+const SHARED_SERVICE = [
+  WindowRefService
+]
 
 @NgModule({
   imports: [
@@ -24,8 +30,12 @@ const SHARED_COMPONENTS = [
   declarations: [ // 先声明
      ...SHARED_COMPONENTS
   ],
+ 
+  providers: [
+    ...SHARED_SERVICE
+  ],
   exports: [ 
-    ...SHARED_COMPONENTS
+    ...SHARED_COMPONENTS,
   ]
 })
 

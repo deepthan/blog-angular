@@ -1,0 +1,56 @@
+.home-full-container{
+    position: relative;
+  }
+  
+  // 第一部分，轮播大图 
+  @media screen and(min-width:768px){
+    .home-full-container{
+      width: 100%;
+      height: 100%;
+    }
+  
+    .fixed-btn{
+      cursor: pointer;
+      padding: 13px;
+      background: #222;
+      width: 45px;
+      height: 45px;
+      display: block;
+      position: fixed;
+      right: 10px;
+      z-index: 99999;
+      -webkit-box-shadow: 2px 0 3px rgba(0,0,0,0.1); 
+      -moz-box-shadow: 2px 0 2px rgba(0,0,0,0.1);
+      box-shadow: 2px 0 2px rgba(0,0,0,0.1);
+      transition: .4s all ease;
+      i{
+        color: #eee;
+        cursor: pointer;
+        font-size: 24px;
+      }
+    }
+    .fixed-btn-top{
+      top: 100px;
+    }
+    .fixed-btn-bottom{
+      top: 150px;
+    }
+  
+    .partner-tips{
+       margin-top: -58px;
+    }
+  }
+  
+  
+  @media screen and(max-width:767px){
+    .fixed-btn{
+      display: none
+    }
+  
+    .partner-tips{
+      margin-top: 0;
+   }
+  
+    
+  }
+  

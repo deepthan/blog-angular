@@ -1,0 +1,74 @@
+<div class='need-top' >
+  <div class='need-tit'>
+    <div class='tit-box' [@fadeInUp]  *ngIf="startAnimationTit" >
+      你需要诗意
+      <div class='icon-wrap' >
+          <div class='protect-icon'>
+              <i class="fa fa-shield" aria-hidden="true"></i>
+            </div>
+      </div>
+    </div>
+  </div>
+
+  <div class=' need-detail' [@fadeInUp] *ngIf="startAnimationDet">
+    <p> 你需要诗意 </p>
+    <p> 你需要诗意</p>
+  </div>
+</div>
+
+<div class='need-bottom container-fluid'>
+
+  <div class="row layout ">
+
+    <div class='auto-reasons' [@fadeInUp] *ngIf="startAnimationDet">
+
+      <div class="col-md-3 col-sm-12 need-reasons reasons-color1">
+        <div class='reasons-wrap'>
+          <div class='reasons-icon'>
+            <i class="fa fa-edit"></i>
+          </div>
+          <div class='reasons-tit'> 你需要诗意 </div>
+          <p class='reasons-det'>你需要诗意,你需要诗意</p>
+          <div class='reasons-btn'>了解更多 <i class="anticon anticon-arrow-right btn-arrows"></i> </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-12 need-reasons reasons-color2">
+        <div class='reasons-wrap'>
+          <div class='reasons-icon'>
+            <i class="fa fa-laptop"></i>
+          </div>
+          <div class='reasons-tit'> 你需要诗意 </div>
+          <p class='reasons-det'>你需要诗意,你需要诗意</p>
+          <div class='reasons-btn'>了解更多 <i class="anticon anticon-arrow-right btn-arrows"></i> </div>
+        </div>
+      </div>
+
+      <div class="col-md-3  col-sm-12 need-reasons reasons-color3">
+        <div class='reasons-wrap'>
+          <div class='reasons-icon'>
+            <i class="fa fa-code"></i>
+          </div>
+          <!-- {{ 'ManageHome.Section3.Network' | translate }}  -->
+          <div class='reasons-tit'>你需要诗意 </div>
+          <p class='reasons-det'>你需要诗意,你需要诗意</p>
+          <div class='reasons-btn'>了解更多 <i class="anticon anticon-arrow-right btn-arrows"></i> </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 need-reasons reasons-color4">
+        <div class='reasons-wrap'>
+          <div class='reasons-icon'>
+            <i class="fa fa-lightbulb-o"></i>
+          </div>
+          <div class='reasons-tit'> 你需要诗意</div>
+          <p class='reasons-det'>你需要诗意,你需要诗意</p>
+          <div class='reasons-btn'>了解更多 <i class="anticon anticon-arrow-right btn-arrows"></i> </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
