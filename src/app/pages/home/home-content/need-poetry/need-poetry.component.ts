@@ -16,19 +16,14 @@ export class NeedSzComponent implements OnChanges {
 
   private startAnimationTit : boolean = false;
   private startAnimationDet : boolean = false;
-  
 
   ngOnChanges(){
-    // console.log("whitchSatrt",this.whitchSatrt);
     if(this.whitchSatrt === 1){
       this.startAnimationTit = true;
       setTimeout(()=>{
         this.startAnimationDet = true;
       },100)
-    }else{
-      // this.startAnimationTit =  this.startAnimationDet = false;
     }
-
   }
 
 }
