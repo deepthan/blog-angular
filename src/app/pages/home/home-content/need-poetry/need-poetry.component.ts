@@ -10,7 +10,7 @@ import { fadeInUp } from './../../../../shared/animations/fadeInUp';
  ]
 })
 
-export class NeedSzComponent implements OnChanges {
+export class NeedPoetryComponent implements OnChanges {
 
   @Input() public whitchSatrt : any ;
 

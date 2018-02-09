@@ -8,8 +8,8 @@ import { HomeComponent } from './home.component';
 import { HomeContentComponent } from './home-content/home-content.component';
 import { SlideshowComponent } from './home-content/slideshow/slideshow.component';
 import { ChangeDotComponent } from './home-content/slideshow/change-dot/change-dot.component';
-import { NeedSzComponent } from './home-content/need-poetry/need-poetry.component';
-
+import { NeedPoetryComponent } from './home-content/need-poetry/need-poetry.component';
+import { presentationUsComponent } from './home-content/presentation-us/presentation-us.component';
 
 const HOME_COMPOENTS = [
   HomeComponent,
@@ -18,8 +18,8 @@ const HOME_COMPOENTS = [
   SlideshowComponent,
   ChangeDotComponent,
 
-  NeedSzComponent,
-
+  NeedPoetryComponent,
+  presentationUsComponent
 ]
 
 @NgModule({

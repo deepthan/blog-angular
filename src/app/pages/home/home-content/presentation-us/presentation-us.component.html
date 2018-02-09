@@ -1,0 +1,73 @@
+<div class='why-sz-top'>
+  
+      <div class='why-tit'>您好，我们是 SecZone</div>
+  
+      <div class='why-det'>
+          SecZone是一家专业提供S-SDLC（软件安全开发生命周期）咨询服务及落地化解决方案提供商，通过提供安全培训、
+          <br>安全开发流程构建、安全开发工具链以及安全开发云平台等一系列服务及产品，帮助客户构建全生命周期软件安全开发能力。
+          <!-- <i class="fa fa-phone"></i> 4000-983-183  <i class="fa fa-envelope"></i> service@seczone.cn -->
+  
+          <br>
+      </div>
+  
+      <div class='middle-btn-wrap'>
+          <div class='more-btn'>了解更多</div>
+          <div class='buy-btn'> 立即购买 <i class="anticon anticon-arrow-right btn-arrows"></i> </div>
+      </div>
+  
+  </div>
+<!--   
+  <div class='why-sz-bottom'>
+      <div class='container-fluid'>
+          <div class="row ">
+  
+              <div class="col-md-4 col-sm-12 why-choose-wrap">
+                  <div class='choosed-common-style'>
+                      <div class='choosed-tit'>
+                          <div> 为什么 </div>
+                          <div class='sp2'> 选择我们 </div>
+                      </div>
+                      <p> 我们的服务: 解决安全问题而生 </p>
+                  </div>
+  
+                  <div  *ngFor="let reasons of whyChooseUs">
+                      <app-reasons-buy (sendVal)="getVal($event)" [formParentShowDet]="showDet" [reasons]="reasons">
+                      </app-reasons-buy>
+                  </div>
+              </div>
+  
+              <div class="col-md-4 col-sm-12">
+  
+                  <div class='choosed-common-style'>
+                      <div class='choosed-tit'>
+                          <div> 我们的 </div>
+                          <div class='sp2'> 特殊技能 </div>
+                      </div>
+                      <p> 自动化完成代码安全审核、安全测试 </p>
+                  </div>
+  
+                  <div *ngFor="let skillMeta of skillMetas">
+                      <app-our-skills [skillMeta] = "skillMeta" [skillsBarStart]='skillsBarStart'></app-our-skills>
+                  </div>
+  
+  
+              </div>
+  
+              <div class="col-md-4 col-sm-12">
+  
+                  <div class='choosed-common-style'>
+                      <div class='choosed-tit'>
+                          <div> 成功 </div>
+                          <div class='sp2'> 合作单位 </div>
+                      </div>
+                      <p> 与全球各大安全组织保持良好的合作，协同创新。</p>
+                  </div>
+  
+                  <app-success-exp></app-success-exp>
+  
+              </div>
+  
+          </div>
+  
+      </div>
+  </div> -->
