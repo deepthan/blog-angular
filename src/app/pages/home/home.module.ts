@@ -15,6 +15,8 @@ import { OurSkillsComponent } from './home-content/presentation-us/our-skills/ou
 import { HeSaidComponent } from './home-content/presentation-us/he-said/he-said.component';
 import { PoetryNewsComponent } from './home-content/poetry-news/poetry-news.component';
 import { MoveImgComponent } from './home-content/poetry-news/move-img/move-img.component';
+import { PartnerAndFooterComponent } from './home-content/partner-and-footer/partner-and-footer.component';
+import { PartnerComponent } from './home-content/partner-and-footer/partner/partner.component';
 
 const HOME_COMPOENTS = [
   HomeComponent,
@@ -31,7 +33,10 @@ const HOME_COMPOENTS = [
   HeSaidComponent,
 
   PoetryNewsComponent,
-  MoveImgComponent
+  MoveImgComponent,
+
+  PartnerAndFooterComponent,
+  PartnerComponent
 ]
 
 @NgModule({
