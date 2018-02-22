@@ -1,0 +1,25 @@
+<div class='news-top'>
+  <div class='news-tit'>
+    <div class='tit-box' [@fadeInUp]  *ngIf="startAnimationTit">
+      新闻中心
+      <div class='icon-wrap'>
+          <div class='protect-icon'>
+              <i class="fa fa-bullhorn" aria-hidden="true"></i> 
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class=' news-detail' [@fadeInUp] *ngIf="startAnimationDet">
+      <p> seczone以优质的服务征服了很多大客户seczone以优质的服务征服了很多大客户seczone以优质的服务征服了很多大客户seczone以优质的服务征服了很多大客户</p>
+      <p> 签约了很多国内的知名公司并且以优异的成绩获得了客户的认可签约了很多国内的知名公司并且以优异的成绩获得了客户的认可 </p>
+    </div>
+</div>
+
+<div class='container-fluid news-bottom'>
+    <div class='row '>
+        <ng-container *ngFor='let newItem of newsList'>
+          <poetry-move-img [newItem]="newItem"></poetry-move-img>
+        </ng-container>
+      </div>
+</div>
+

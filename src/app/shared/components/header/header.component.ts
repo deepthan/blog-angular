@@ -12,7 +12,7 @@ export class HeaderComponent implements OnInit {
   eventListener: any;
   public _window: Window;
   public blueBg: boolean;
-  public yOffset;
+  // public yOffset;
 
   /**
    * 在调用头部组件时 ：  <home-header [canchange]= 'true'></home-header>
@@ -35,7 +35,7 @@ export class HeaderComponent implements OnInit {
     let that = this;
     this.eventListener = this._window.addEventListener("scroll",  () => {
       window.pageYOffset > 70  ? that.blueBg = true : that.blueBg = false;
-      this.yOffset.saveOffsetY(window.pageYOffset);
+      // this.yOffset.saveOffsetY(window.pageYOffset);
     });
   }
 
