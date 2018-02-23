@@ -1,0 +1,8 @@
+<div class='the-tit' (click)='clickTit()' [ngClass]="showDet ? 'click-tit' : 'default-tit'">
+  <span>{{ reasons.title }}</span>
+  <div class='icon-common' [ngClass]="showDet ? 'click-tit-icon' : 'tit-icon'" ></div>
+</div>
+<div class='the-det' [ngClass]="showDet ? 'show-det' : 'hide-det' ">
+  {{ reasons.detail }}
+</div>
+

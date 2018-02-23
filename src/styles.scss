@@ -1,0 +1,14 @@
+/**
+ * auther: deepthan
+ * createDate: 2017.10.23
+ * explain: 可以在这里写公共样式，或者引入其他css文件
+ *  **这里是你的全局样式。 大多数情况下，你会希望在组件中使用局部样式，以利于维护，不过那些会影响你整个应用的样式你还是需要集中存放在这里。
+ * */
+
+/*表格的点击显示详情选项*/
+ .click-link{
+    color: #0061ae;
+    cursor: pointer;
+}
+@import '~font-awesome/css/font-awesome.min.css';
+@import '~bootstrap/dist/css/bootstrap.min.css';
