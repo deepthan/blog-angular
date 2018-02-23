@@ -28,32 +28,32 @@ export class PoetryNewsComponent implements OnInit {
 
   newsList = [
     {
-      img: '../../../../../assets/images/sliders/1.jpg',
+      img: './assets/images/sliders/1.jpg',
       tit: '新闻标题',
       det: '新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容'
     },
     {
-      img: '../../../../../assets/images/sliders/2.jpg',
+      img: './assets/images/sliders/2.jpg',
       tit: '新闻标题',
       det: '新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容'
     },
     {
-      img: '../../../../../assets/images/sliders/3.jpg',
+      img: './assets/images/sliders/3.jpg',
       tit: '新闻标题',
       det: '新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容'
     },
     {
-      img: '../../../../../assets/images/sliders/4.jpg',
+      img: './assets/images/sliders/4.jpg',
       tit: '新闻标题',
       det: '新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容'
     },
     {
-      img: '../../../../../assets/images/sliders/5.jpg',
+      img: './assets/images/sliders/5.jpg',
       tit: '新闻标题',
       det: '新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容'
     },
     {
-      img: '../../../../../assets/images/sliders/6.jpg',
+      img: './assets/images/sliders/6.jpg',
       tit: '新闻标题',
       det: '新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容'
     }
