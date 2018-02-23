@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "gitee" : "ng build --prod --aot --base-href",
-    "github": "ng build --prod --aot --base-href 'https://deepthan.github.io/Angular-demo/'"
+    "github": "ng build --prod --aot --base-href 'https://deepthan.github.io/blog-angular/'"
   },
   "private": true,
   "dependencies": {
