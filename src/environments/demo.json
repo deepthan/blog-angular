@@ -1,7 +1,0 @@
-{
-  "baseUrl": "/",
-  "env": "demo",
-  "api": {
-    "host": ""
-  }
-}
