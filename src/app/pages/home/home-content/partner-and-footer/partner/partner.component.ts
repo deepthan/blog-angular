@@ -12,7 +12,7 @@ import { fadeInUp } from './../../../../../shared/animations/fadeInUp';
 export class PartnerComponent implements OnInit, OnChanges {
 
   @Input() public partnerStart: any;
-  private imgStart : boolean = false;
+  imgStart : boolean = false;
 
   ngOnChanges(){
     this.partnerStart ? this.beginImg() : null;

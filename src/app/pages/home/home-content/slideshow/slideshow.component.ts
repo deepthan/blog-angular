@@ -20,7 +20,7 @@ export class SlideshowComponent implements OnInit {
   @ViewChild('thiSlider')  thiSlider: ElementRef;
   @ViewChild('fouSlider')  fouSlider: ElementRef;
   
-  private index : number = 0;
+  index : number = 0;
   private frontIndex : number;
   private nextIndex : number;
 

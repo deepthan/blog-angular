@@ -9,13 +9,13 @@ export class presentationUsComponent implements OnInit {
   
   @Input() public whitchSatrt: any;
   
-  private showDet: boolean;
+  public showDet: boolean;
   /* 传递过来的是判断为 this ，指定被点击的组件，由此可判别是哪个组件的被点击了   */
   getVal(val) {
     this.showDet = val;
   }
 
-  private skillsBarStart : boolean =  false;
+  public skillsBarStart : boolean =  false;
   ngOnChanges(){
     if(this.whitchSatrt === 2){
       this.skillsBarStart = true;
@@ -27,7 +27,7 @@ export class presentationUsComponent implements OnInit {
   ngOnInit() {
   }
 
-  private whyChooseUs = [
+  whyChooseUs = [
     {
       title: "诗词歌赋诗词歌赋诗词歌赋诗词歌赋诗词歌赋",
       detail: "诗词歌赋诗词歌赋诗词歌赋诗词歌赋诗词歌赋诗词歌赋诗词歌赋诗词歌赋诗词歌赋诗词歌赋诗词歌赋诗词歌赋诗词歌赋诗词歌赋诗词歌赋诗词歌赋诗词歌赋诗词歌赋诗词歌赋诗词歌赋",
@@ -47,7 +47,7 @@ export class presentationUsComponent implements OnInit {
     },
   ]
 
-  private skillMetas = [
+  skillMetas = [
     {
       name: '唐诗',
       percentage: '40%',

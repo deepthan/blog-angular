@@ -75,7 +75,7 @@ export class HomeContentComponent implements OnInit {
     });
   }
 
-  private whitchSatrt: number;
+  whitchSatrt: number;
   private readyAnimateArray = [];
 
   startAnimations() {

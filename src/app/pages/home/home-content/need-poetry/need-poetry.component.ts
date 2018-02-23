@@ -14,8 +14,8 @@ export class NeedPoetryComponent implements OnChanges {
 
   @Input() public whitchSatrt : any ;
 
-  private startAnimationTit : boolean = false;
-  private startAnimationDet : boolean = false;
+  startAnimationTit : boolean = false;
+  startAnimationDet : boolean = false;
 
   ngOnChanges(){
     if(this.whitchSatrt === 1){

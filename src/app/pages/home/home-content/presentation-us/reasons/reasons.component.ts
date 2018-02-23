@@ -11,7 +11,7 @@ export class ReasonsComponent implements  OnInit, OnChanges {
   @Input()  public  formParentShowDet : any;
   @Input()  public  reasons : any;
 
-  private showDet : boolean = false;
+  showDet : boolean = false;
 
   clickTit(){
     this.showDet = true;

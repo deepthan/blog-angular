@@ -9,7 +9,7 @@ export class PartnerAndFooterComponent implements OnInit, OnChanges {
 
   @Input() public whitchSatrt: any;
 
-  private partnerStart : boolean =  false;
+  partnerStart : boolean =  false;
   ngOnChanges(){
     if(this.whitchSatrt === 4){
       this.partnerStart = true;

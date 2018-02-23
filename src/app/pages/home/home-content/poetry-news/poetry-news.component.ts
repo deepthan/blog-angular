@@ -14,8 +14,8 @@ export class PoetryNewsComponent implements OnInit {
 
   @Input() public whitchSatrt: any;
 
-  private startAnimationTit: boolean = false;
-  private startAnimationDet: boolean = false;
+  startAnimationTit: boolean = false;
+  startAnimationDet: boolean = false;
 
   ngOnChanges() {
     if (this.whitchSatrt === 3) {
@@ -26,7 +26,7 @@ export class PoetryNewsComponent implements OnInit {
     }
   }
 
-  private newsList = [
+  newsList = [
     {
       img: '../../../../../assets/images/sliders/1.jpg',
       tit: '新闻标题',
