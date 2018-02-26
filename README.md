@@ -47,7 +47,7 @@ animation | animation
 | [group](https://github.com/deepthan/blog-angular/issues/27)   | [AnimationOptions](https://github.com/deepthan/blog-angular/issues/28)|
     
 
-#### 报错处理
+## 报错处理
 配置文件 | 配置文件
 ---|---
 | [关于function 、lambda、not supported等](https://github.com/deepthan/blog-angular/issues/30) | [关于polyfills.ts、'es5-shim'、'es6-shim'](https://github.com/deepthan/blog-angular/issues/31) |  
