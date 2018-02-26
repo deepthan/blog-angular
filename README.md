@@ -52,7 +52,11 @@ animation | animation
 ---|---
 | [关于function 、lambda、not supported等](https://github.com/deepthan/blog-angular/issues/30) | [关于polyfills.ts、'es5-shim'、'es6-shim'](https://github.com/deepthan/blog-angular/issues/31) |  
 | [关于Observable、map的问题](https://github.com/deepthan/blog-angular/issues/32) |[ 关于'Http' ](https://github.com/deepthan/blog-angular/issues/33) | 
-| [关于找不到模块](https://github.com/deepthan/blog-angular/issues/34) | [关于表单](https://github.com/deepthan/blog-angular/issues/35 ) |
+| [关于找不到模块](https://github.com/deepthan/blog-angular/issues/34) | [关于表单form](https://github.com/deepthan/blog-angular/issues/35 ) |
+| [关于Debug Failure](https://github.com/deepthan/blog-angular/issues/36) | [ 关于RangeError: Maximum call stack size exceeded](https://github.com/deepthan/blog-angular/issues/37) |
+| [关于node-sass里面 vendor 缺失](https://github.com/deepthan/blog-angular/issues/38) | [关于phantormjs](https://github.com/deepthan/blog-angular/issues/39)|
+| [关于找不到 require或者module](https://github.com/deepthan/blog-angular/issues/40)  | 
+
 
 
 ## 博客搭建
