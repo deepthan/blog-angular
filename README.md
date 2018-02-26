@@ -48,7 +48,7 @@ animation | animation
     
 
 ## 报错处理
-配置文件 | 配置文件
+关键词 | 关键词
 ---|---
 | [关于function 、lambda、not supported等](https://github.com/deepthan/blog-angular/issues/30) | [关于polyfills.ts、'es5-shim'、'es6-shim'](https://github.com/deepthan/blog-angular/issues/31) |  
 | [关于Observable、map的问题](https://github.com/deepthan/blog-angular/issues/32) |[ 关于'Http' ](https://github.com/deepthan/blog-angular/issues/33) | 
