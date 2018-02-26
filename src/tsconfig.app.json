@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "lib": [
+      "es2016",
+      "dom"
+    ],
+    "outDir": "../out-tsc/app",
+    "module": "es2015",
+    "baseUrl": "",
+    "types": ["node"]
+  },
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts"
+  ],
+  "paths": {
+    "@angular/common": ["../node_modules/@angular/common"],
+    "@angular/compiler": ["../node_modules/@angular/compiler"],
+    "@angular/core": ["../node_modules/@angular/core"],
+    "@angular/forms": ["../node_modules/@angular/forms"],
+    "@angular/platform-browser": ["../node_modules/@angular/platform-browser"],
+    "@angular/platform-browser-dynamic": ["../node_modules/@angular/platform-browser-dynamic"],
+    "@angular/router": ["../node_modules/@angular/router"],
+    "@angular/http": ["../node_modules/@angular/http"]
+  }
+}
+  

@@ -1,0 +1,78 @@
+  {
+    "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+    "project": {
+      "name": "pro0-test",
+      "ejected": false 
+    },
+    "apps": [
+      {
+        "root": "src", 
+        "outDir": "dist",  
+        "assets": [ 
+          "assets"
+        ],
+        "index": "index.html", 
+        "main": "main.ts", 
+        "polyfills": "polyfills.ts", 
+        "test": "test.ts", 
+        "tsconfig": "tsconfig.app.json",  
+        "testTsconfig": "tsconfig.spec.json",
+        "prefix": "poetry", 
+        "styles": [ 
+          "app/theme/theme.scss",
+          "styles.scss"
+        ],
+        "scripts": [ 
+          "../node_modules/tinymce/tinymce.js",
+          "../node_modules/tinymce/themes/modern/theme.js",
+          "../node_modules/tinymce/plugins/link/plugin.js",
+          "../node_modules/tinymce/plugins/paste/plugin.js",
+          "../node_modules/tinymce/plugins/table/plugin.js",
+          "../node_modules/tinymce/plugins/preview/plugin.js",
+          "../node_modules/tinymce/plugins/fullscreen/plugin.js",
+          "../node_modules/tinymce/plugins/textcolor/plugin.js",
+          "../node_modules/tinymce/plugins/image/plugin.js",
+          "../node_modules/tinymce/plugins/imagetools/plugin.js",
+          "../node_modules/tinymce/plugins/code/plugin.js"
+        ],
+        "environmentSource": "environments/environment.ts", 
+        "environments": {
+          "dev": "environments/environment.ts",
+          "demo": "environments/environment.demo.ts",
+          "prod": "environments/environment.prod.ts",
+          "test": "environments/environment.test.ts",
+          "github": "environments/environment.github.ts"
+        }
+      }
+    ],
+    "e2e": {
+      "protractor": {
+        "config": "./protractor.conf.js"
+      }
+    },
+    "lint": [
+      {
+        "project": "src/tsconfig.app.json"
+      },
+      {
+        "project": "src/tsconfig.spec.json"
+      },
+      {
+        "project": "e2e/tsconfig.e2e.json"
+      }
+    ],
+    "test": {
+      "karma": {
+        "config": "./karma.conf.js"
+      }
+    },
+    "defaults": { 
+      "styleExt": "scss", 
+      "component": {
+        "flat": false, 
+        "inlineStyle": false, 
+        "inlineTemplate": false, 
+        "spec": false 
+      }
+    }
+  }

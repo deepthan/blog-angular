@@ -1,0 +1,7 @@
+{
+  "baseUrl": "/",
+  "env": "prod",
+  "api": {
+    "host": "https://github.com/deepthan/deepthan.github.io"
+  }
+}

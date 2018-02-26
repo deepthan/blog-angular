@@ -1,0 +1,11 @@
+<div class='skill-wrap'>
+  <div class='skill-name'>
+          {{ skillMeta.name }}
+      <span> {{ skillMeta.percentage }} </span>
+  </div>
+  <div class='process-bar' #processBar
+       *ngIf='skillsBarStart' 
+       [@autoWidth] 
+       [ngStyle]="{'background-color':skillMeta.color,'width':skillMeta.percentage}">
+  </div>
+</div>

@@ -1,0 +1,43 @@
+<div class='slider-container'>
+  <div class='fir-slider default-left' #firSlider>
+      <div class='fir-tit' #firTit>诗意生活，从这里开始</div>
+      <div class='fir-detail' #firDet>以更加饱满的状态迎接黎明</div>
+      <ul class='fir-btn'>
+          <li  class='pick-li' #firBtn>了解更多<i class="anticon anticon-arrow-right btn-arrows"></i></li>
+      </ul>
+  </div>
+
+  <div class='sec-slider' #secSlider>
+      <div class='fir-tit' #secTit>诗意生活，从你我做起</div>
+      <div class='fir-detail' #secDet>感受生活的美好，有趣灵动</div>
+      <ul class='fir-btn' >
+          <li class='pick-li' #secBtn>立即试用 <i class="anticon anticon-arrow-right btn-arrows"></i> </li>
+      </ul>
+  </div>
+
+  <div class='thi-slider' #thiSlider>
+      <div class='fir-tit' #thiTit>诗意生活，爱的伊始</div>
+      <div class='fir-detail' #thiDet>这里是美好的发源地，感动你我</div>
+      <ul class='fir-btn'>
+          <li class='pick-li' #thiBtn>了解更多 <i class="anticon anticon-arrow-right btn-arrows"></i> </li>
+      </ul>
+  </div>
+
+  <div class='fou-slider' #fouSlider>
+      <div class='fir-tit' #fouTit>诗意生活，点燃你的情感</div>
+      <div class='fir-detail' #fouDet>感受世间的美好，拥抱未来</div>
+      <ul class='fir-btn'>
+          <li class='pick-li' #fouBtn>了解更多 <i class="anticon anticon-arrow-right btn-arrows"></i> </li>
+      </ul>
+  </div>
+
+  <ul class='change-bg-btn'>
+      <li class='left-change-bg' (click)='reduce()'> </li>
+      <li class='right-change-bg' (click)='add()'> </li>
+  </ul>
+
+  <span class='dowmBtn' (click)='goDown()'></span>
+
+  <change-dot (sendIndex)="getIndex($event)" [currentIndex]="index"></change-dot>
+
+</div>

@@ -1,0 +1,14 @@
+<div class="itemWrap col-sm-4" #itemWrap (mouseenter)="mouseenter($event)" (mouseleave)="mouseleave($event)">
+  <img src="{{newItem.img}}" alt="">
+  <div class="content" #content>
+      <p>
+          {{ newItem.tit }}
+          
+      </p>
+      <p class='det'>
+          {{ newItem.det }}
+          
+      </p>
+  </div>
+ 
+</div>

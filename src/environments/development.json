@@ -1,0 +1,7 @@
+{
+  "baseUrl": "/",
+  "env": "dev",
+  "api": {
+    "host": "http://localhost:3000/lms"
+  }
+}

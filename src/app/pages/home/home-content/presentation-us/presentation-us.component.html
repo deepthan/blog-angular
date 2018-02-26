@@ -1,0 +1,68 @@
+<div class='why-sz-top'>
+  
+      <div class='why-tit'>您好，我是诗生活</div>
+  
+      <div class='why-det'>
+          诗意您的生活，享受您的快乐。
+      </div>
+  
+      <div class='middle-btn-wrap'>
+          <div class='more-btn'>了解更多</div>
+          <div class='buy-btn'> 联系我们 <i class="anticon anticon-arrow-right btn-arrows"></i> </div>
+      </div>
+  
+  </div>
+  
+  <div class='why-sz-bottom'>
+      <div class='container-fluid'>
+          <div class="row ">
+  
+              <div class="col-md-4 col-sm-12 why-choose-wrap">
+                  <div class='choosed-common-style'>
+                      <div class='choosed-tit'>
+                          <div> 为什么 </div>
+                          <div class='sp2'> 喜欢我们 </div>
+                      </div>
+                      <p> 我们的网站很有特色 </p>
+                  </div>
+  
+                  <div  *ngFor="let reasons of whyChooseUs">
+                      <poetry-reasons (sendVal)="getVal($event)" [formParentShowDet]="showDet" [reasons]="reasons">
+                      </poetry-reasons>
+                  </div>
+              </div>
+  
+              <div class="col-md-4 col-sm-12">
+  
+                  <div class='choosed-common-style'>
+                      <div class='choosed-tit'>
+                          <div> 我们的 </div>
+                          <div class='sp2'> 特别之处 </div>
+                      </div>
+                      <p> 诗词美人更美 </p>
+                  </div>
+  
+                  <div *ngFor="let skillMeta of skillMetas">
+                      <poetry-our-skills [skillMeta] = "skillMeta" [skillsBarStart]='skillsBarStart'></poetry-our-skills>
+                  </div>
+  
+              </div>
+  
+              <div class="col-md-4 col-sm-12">
+  
+                  <div class='choosed-common-style'>
+                      <div class='choosed-tit'>
+                          <div> 优美的 </div>
+                          <div class='sp2'> 诗词案例 </div>
+                      </div>
+                      <p> 诗词案例诗词案例 </p>
+                  </div>
+  
+                  <poetry-he-said></poetry-he-said>
+  
+              </div>
+  
+          </div>
+  
+      </div>
+  </div>

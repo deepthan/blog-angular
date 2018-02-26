@@ -1,0 +1,32 @@
+// Line-height
+// %line-height-10
+@for $i from 1 through 26 {
+  %line-height-#{(1 + ($i - 1) * 0.2) * 10} {
+    line-height: 1 + ($i - 1) * 0.2 + rem;
+  }
+}
+
+// Custom line-height
+%line-height-base {
+  line-height: $line-height-base;
+}
+
+%line-height-sm {
+  line-height: $line-height-sm;
+}
+
+%line-height-lg {
+  line-height: $line-height-lg;
+}
+
+%line-height-0 {
+  line-height: 0;
+}
+
+%line-height-inherit {
+  line-height: inherit;
+}
+
+%line-height-normal {
+  line-height: normal;
+}

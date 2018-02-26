@@ -1,0 +1,242 @@
+// Mixins
+// --------------------------------------------------
+
+
+// Atoms
+// --------------------------------------------------
+
+
+// $Atoms
+// Extend atoms placeholder
+@mixin atoms($collection...) {
+	@each $el in $collection {
+		@extend %#{$el};
+	}
+}
+
+
+// Spacing
+// --------------------------------------------------
+
+// $Spacing
+// @param $spacers - spacers list
+// Usage: spacing(mt-0, px-1)
+// ----------------------------------
+@mixin spacing($spacers...) {
+  @each $spacer in $spacers {
+    @extend %#{$spacer};
+  }
+}
+
+// $Spacing-custom
+// @param $type - spacing type, margin, padding
+// @param $top $right $bottom $left - values
+// Usage: spacing-custom(padding, 1rem, $left: 1rem)
+// ----------------------------------
+@mixin spacing-custom($type, $top: null, $right: null, $bottom: null, $left: null) {
+	#{$type}-top: $top;
+	#{$type}-right: $right;
+	#{$type}-bottom: $bottom;
+	#{$type}-left: $left;
+}
+
+
+// Sizing
+// --------------------------------------------------
+
+
+// $Sizing
+// @param $size - sizes list
+// Usage: sizing(w-25, w-100)
+// ----------------------------------
+@mixin sizing($sizes...) {
+  @each $size in $sizes {
+    @extend %#{$size};
+  }
+}
+
+// $Sizing-custom
+// @param $width - width
+// @param $height - height
+// Usage: sizing-custom(2rem)
+// ----------------------------------
+@mixin sizing-custom($width: null, $height: null) {
+  width: $width;
+  height: $height;
+}
+
+
+// Grid
+// --------------------------------------------------
+
+
+// $Grid
+// @param $cols - column list
+// Usage: grid(col-md-7, col-md-offset-1)
+// ----------------------------------
+@mixin grid($cols...) {
+  @each $col in $cols {
+    @extend %#{$col};
+  }
+}
+
+
+// Flex
+// --------------------------------------------------
+
+
+// $Flex box
+// @param $utilities - utilitie placeholder
+// Usage: flex-box(d-flex)
+// ----------------------------------
+@mixin flex-box($utilities...) {
+  @include atoms($utilities...);
+}
+
+
+// Font-size
+// --------------------------------------------------
+
+
+// $Font size
+// @param $size - font size
+// Usage: font-size(h1) font-size(fs-13)
+// ----------------------------------
+@mixin font-size($size) {
+  @include atoms($size);
+}
+
+
+// Colors
+// --------------------------------------------------
+
+
+// $Color
+// @param $color - text color and bg color
+// Usage: colors(text-gray-light)
+// ----------------------------------
+@mixin colors($color...) {
+  @include atoms($color...);
+}
+
+
+// Text
+// --------------------------------------------------
+
+
+// $Text
+// @param $props - text
+// Usage: text(text-left)
+// ----------------------------------
+@mixin text($props...) {
+  @include atoms($props...);
+}
+
+// Text
+// --------------------------------------------------
+
+
+// $Display
+// @param $display - display
+// Usage: display(d-flex)
+// ----------------------------------
+@mixin display($display) {
+  @include atoms($display);
+}
+
+
+// Align
+// --------------------------------------------------
+
+
+// $Align
+// @param $align - align
+// Usage: align(align-middle)
+// ----------------------------------
+@mixin align($align) {
+  @include atoms($align);
+}
+
+
+// Variant
+// --------------------------------------------------
+
+
+// $Variant
+// @param $variant - variant, Contains the following attributes:
+// background-color border-color color
+// Usage: variant(bg-primary, border-success, color-info)
+// ----------------------------------
+@mixin variant($variant...) {
+  @include atoms($variant...);
+}
+
+
+// Border
+// --------------------------------------------------
+
+
+// $Border
+// @param $border - style, width, radius
+// Usage: border(border-1, border-solid, rounded)
+// ----------------------------------
+@mixin border($border...) {
+  @include atoms($border...);
+}
+
+
+
+// Button
+// --------------------------------------------------
+
+
+// %Button
+// @param $size - button size
+// @param $variant - button variant
+// Usage:
+// button(
+//   $size: (fs-15, line-height-38),
+//   $variant: (text-success, border-success)
+// );
+// ----------------------------------
+@mixin button($size: null, $variant: null) {
+  @extend %btn-base;
+
+  @include atoms($size...);
+  @include variant($variant...);
+}
+
+
+
+
+
+
+
+
+// Reset form input border radius
+@mixin form-border-radius($elem, $nth, $dir) {
+  #{$elem}:nth-child(#{$nth}) {
+    input {
+      @if $dir == top {
+        border-radius: $btn-default-border-radius $btn-default-border-radius 0 0;
+      } @else if $dir == bottom {
+        border-radius: 0 0 $btn-default-border-radius $btn-default-border-radius;
+      }
+    }
+  }
+}
+
+// Position
+// @param position, $top, $left, $right, $bottom - Position
+// ----------------------------------
+@mixin position($position, $top: null, $left: null, $right: null, $bottom: null) {
+  $list: (top: $top, left: $left, right: $right, bottom: $bottom);
+
+  position: $position;
+
+  @each $k, $v in $list {
+    @if $v != null {
+      #{$k}:$v;
+    }
+  }
+}

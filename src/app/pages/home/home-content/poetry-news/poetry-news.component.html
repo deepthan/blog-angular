@@ -1,0 +1,25 @@
+<div class='news-top'>
+  <div class='news-tit'>
+    <div class='tit-box' [@fadeInUp]  *ngIf="startAnimationTit">
+      新闻中心
+      <div class='icon-wrap'>
+          <div class='protect-icon'>
+              <i class="fa fa-bullhorn" aria-hidden="true"></i> 
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class=' news-detail' [@fadeInUp] *ngIf="startAnimationDet">
+      <p> 诗词有新的见解之类的诗词有新的见解之类的诗词有新的见解之类的诗词有新的见解之类的诗词有新的见解之类的</p>
+      <p> 诗词有新的见解之类的诗词有新的见解之类的诗词有新的见解之类的诗词有新的见解之类的诗词有新的见解之类的 </p>
+    </div>
+</div>
+
+<div class='container-fluid news-bottom'>
+    <div class='row '>
+        <ng-container *ngFor='let newItem of newsList'>
+          <poetry-move-img [newItem]="newItem"></poetry-move-img>
+        </ng-container>
+      </div>
+</div>
+

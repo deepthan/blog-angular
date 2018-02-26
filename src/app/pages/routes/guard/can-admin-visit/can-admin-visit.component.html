@@ -1,0 +1,8 @@
+<p>
+  can-admin-visit works!
+</p>
+
+<div [routerLink]="['/routes/guard/anybody']"> 不登录，往任何人都可以访问的地址跳，对应地址  routes/guard/anybody </div>
+<div> 登录后的地址</div>
+<div [routerLink]="['/routes/guard/admin']">管理员的地址： routes/guard/admin</div>
+<div [routerLink]="['/routes/guard/user']">普通用户的的地址： routes/guard/user</div>
