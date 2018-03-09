@@ -130,7 +130,7 @@ animation | animation
 |   质量较高的系列教程                    |              [Angular 4.x 修仙之路](https://segmentfault.com/a/1190000008754631?t=1232145435)    |
 |   现已成书，较良心的教程                 |      [Angular 2.x 从0到1](https://github.com/wpcfan/awesome-tutorials/blob/master/angular2/ng2-tut/README.md) |
 |   汇智网的视频教学                     |     [Angular 2入门](http://www.hubwiz.com/course/5599d367a164dd0d75929c76/) |
-
+|   学习资源汇总                          |   [angular-education](https://github.com/timjacobi/angular-education)  |
 ## 别人的 Angular 博客
 |                   地址       |                  地址                                                      |
 |           ---------          |                   ---------                                                   |
