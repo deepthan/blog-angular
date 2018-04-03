@@ -2,13 +2,10 @@ import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Http, XHRBackend, RequestOptions, HttpModule, JsonpModule } from '@angular/http';
 import { Router, RouterModule } from '@angular/router';
-
 import { NgZorroAntdModule } from 'ng-zorro-antd';
 
 import { HeaderComponent, FooterComponent, NgContentComponent } from './components/index';
-
 import { WindowRefService } from './service/return-window.service';
-
 
 const SHARED_COMPONENTS = [
   HeaderComponent,

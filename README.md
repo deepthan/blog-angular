@@ -38,7 +38,7 @@
 ---|---
 [ngClass](https://github.com/deepthan/blog-angular/issues/13) | [父子组件传递信息](https://github.com/deepthan/blog-angular/issues/14)|
 
-animation | animation
+animation | animation 
 ---|---
 | [trigger](https://github.com/deepthan/blog-angular/issues/18) | [state](https://github.com/deepthan/blog-angular/issues/19) |  
 | [transition](https://github.com/deepthan/blog-angular/issues/20) | [animate](https://github.com/deepthan/blog-angular/issues/21) | 
@@ -46,6 +46,11 @@ animation | animation
 | [query](https://github.com/deepthan/blog-angular/issues/24)   | [sequence](https://github.com/deepthan/blog-angular/issues/25) | 
 | [group](https://github.com/deepthan/blog-angular/issues/27)   | [AnimationOptions](https://github.com/deepthan/blog-angular/issues/28)|
     
+i18n | i18n
+---|---
+[DecimalPipe](https://github.com/deepthan/blog-angular/issues/41) | |
+
+
 
 ## 报错处理
 关键词 | 关键词
