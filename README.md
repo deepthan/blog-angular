@@ -118,7 +118,7 @@ i18n | i18n
 |   图表插件                    |       [ng2-charts](https://github.com/valor-software/ng2-charts)  / [ngx-echarts](https://github.com/xieziyu/ngx-echarts)          |
 |  上传插件                    |       [ng2-file-upload](https://github.com/valor-software/ng2-file-upload)     |
 |  select插件                 |        [ng2-select](https://github.com/valor-software/ng2-select)               |
-
+|  国际化i18n                  |       [ngx-translate](https://github.com/ngx-translate/core)  |
 ## 案例项目(模板)
 |                   项目简介       |                  项目地址                                                      |
 |           ---------          |                   ---------                                                   |
