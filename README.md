@@ -102,7 +102,7 @@ i18n | i18n
 ## UI 库
 |                   用途         |                  插件地址                                                      |
 |           ---------            |                   ---------                                                   |
-|   阿里开源的ui库                |        [ng-zorro](https://ng.ant.design/#/docs/angular/introduce)    |
+|   阿里开源的ui库ng-zorro                |        [api站点](https://ng.ant.design/#/docs/angular/introduce) / [国内镜像](http://ng-zorro.gitee.io/#/docs/angular/introduce)  /[github](https://github.com/NG-ZORRO/ng-zorro-antd)  |
 |   专门为ng2的设计的bootsrap库   |        [ngx-bootstrap](https://github.com/valor-software/ngx-bootstrap)       |
 |   FreeNG                       |        [FreeNG](https://github.com/valor-software/ngx-bootstrap)       |
 |   英文的Angular组件库             |        [Angular Material](https://material.angular.io/components/categories) | 
