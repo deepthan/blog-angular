@@ -30,8 +30,8 @@
 | [路由预加载--预先加载延迟模块](https://github.com/deepthan/blog-angular/issues/4) | [Angular2+去除url中的#](https://github.com/deepthan/blog-angular/issues/5)  |
 | [ng-content在一个节点中插入另外的节点](https://github.com/deepthan/blog-angular/issues/6)   |  [Angular动画怎么写](https://github.com/deepthan/blog-angular/issues/15)    |
 | [Angular如何操作DOM?](https://github.com/deepthan/blog-angular/issues/9)    |   [不直接操作DOM改变DOM属性](https://github.com/deepthan/blog-angular/issues/17) |
-| [HTML里面写变量方法汇总](https://github.com/deepthan/blog-angular/issues/16)   |    | 
-
+| [HTML里面写变量方法汇总](https://github.com/deepthan/blog-angular/issues/16)   |   [production环境中去除console信息 ](https://github.com/deepthan/blog-angular/issues/42) | 
+| [Angular热替换（cli & webpack）](https://github.com/deepthan/blog-angular/issues/43) | |
 
 ## API
 方法名 | 方法名
@@ -103,10 +103,11 @@ i18n | i18n
 |                   用途         |                  插件地址                                                      |
 |           ---------            |                   ---------                                                   |
 |   阿里开源的ui库ng-zorro                |        [api站点](https://ng.ant.design/#/docs/angular/introduce) / [国内镜像](http://ng-zorro.gitee.io/#/docs/angular/introduce)  /[github](https://github.com/NG-ZORRO/ng-zorro-antd)  |
-|   专门为ng2的设计的bootsrap库   |        [ngx-bootstrap](https://github.com/valor-software/ngx-bootstrap)       |
-|   FreeNG                       |        [FreeNG](https://github.com/valor-software/ngx-bootstrap)       |
+|   angular版本bootsrap库[推荐]   |        [ngx-bootstrap](https://github.com/valor-software/ngx-bootstrap)       |
+|   angular版本bootsrap库   |        [ng-bootstrap](https://github.com/ng-bootstrap/ng-bootstrap)       |
 |   英文的Angular组件库             |        [Angular Material](https://material.angular.io/components/categories) | 
 |   英文的组件库                 |        [PrimeNG](https://www.primefaces.org/primeng/#/) | 
+|   FreeNG                       |        [FreeNG](https://github.com/valor-software/ngx-bootstrap)       |
 |   字体图标  | [Font Awesome （英）](http://fontawesome.io/icons/) 、[Font Awesome （中）](http://www.fontawesome.com.cn/) 、 [阿里的iconfont](http://iconfont.cn/)  |
 |   对 ng-zorro 做了一层封装的ui库 | [ng-alain](https://github.com/cipchk/ng-alain) | 
 
@@ -140,7 +141,7 @@ i18n | i18n
 |                   地址       |                  地址                                                      |
 |           ---------          |                   ---------                                                   |
 |     [Angular 2+ 专栏 ](https://github.com/lizhonghui/blogblog)            |            [Angular2一小时快速入门, 慕课网](http://www.imooc.com/learn/789)        |
-|  [angular 2 学习笔记](http://www.cnblogs.com/keatkeat/category/872790.html)  |            
+|  [angular 2 学习笔记](http://www.cnblogs.com/keatkeat/category/872790.html)  |  [thoughTram](https://blog.thoughtram.io/angular/2018/03/05/advanced-caching-with-rxjs.html)  |         
 
 
 ## 提问交流社区
