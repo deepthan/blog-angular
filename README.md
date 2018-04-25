@@ -173,7 +173,8 @@ i18n | i18n
 ## typescript
 | 说明 | 地址 |
 | --- | --- |
-| typescript官网（英） | [typescript](https://www.typescriptlang.org/index.html) |
+|  [typescript中文网](https://www.tslang.cn/) |  [typescript官网（英）](https://www.typescriptlang.org/index.html) |
+|  [github源码仓库](https://github.com/Microsoft/TypeScript) | | 
 
 ## 诗词接口
 - [chinese-poetry](https://github.com/chinese-poetry/chinese-poetry)
