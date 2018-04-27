@@ -31,13 +31,13 @@
 | [ng-content在一个节点中插入另外的节点](https://github.com/deepthan/blog-angular/issues/6)   |  [Angular动画怎么写](https://github.com/deepthan/blog-angular/issues/15)    |
 | [Angular如何操作DOM?](https://github.com/deepthan/blog-angular/issues/9)    |   [不直接操作DOM改变DOM属性](https://github.com/deepthan/blog-angular/issues/17) |
 | [HTML里面写变量方法汇总](https://github.com/deepthan/blog-angular/issues/16)   |   [production环境中去除console信息 ](https://github.com/deepthan/blog-angular/issues/42) | 
-| [Angular热替换（cli & webpack）](https://github.com/deepthan/blog-angular/issues/43) | |
+| [Angular热替换（cli & webpack）](https://github.com/deepthan/blog-angular/issues/43) | [父子组件传递信息](https://github.com/deepthan/blog-angular/issues/14) |
 
 
 ## API
 方法名 | 方法名
 ---|---
-[ngClass](https://github.com/deepthan/blog-angular/issues/13) | [父子组件传递信息](https://github.com/deepthan/blog-angular/issues/14)|
+[ngClass](https://github.com/deepthan/blog-angular/issues/13) | |
 
 animation | animation 
 ---|---
@@ -50,7 +50,6 @@ animation | animation
 i18n | i18n
 ---|---
 [DecimalPipe](https://github.com/deepthan/blog-angular/issues/41) | |
-
 
 路由 | 路由
 ---|---
