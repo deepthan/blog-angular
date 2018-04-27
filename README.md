@@ -33,9 +33,6 @@
 | [HTML里面写变量方法汇总](https://github.com/deepthan/blog-angular/issues/16)   |   [production环境中去除console信息 ](https://github.com/deepthan/blog-angular/issues/42) | 
 | [Angular热替换（cli & webpack）](https://github.com/deepthan/blog-angular/issues/43) | |
 
-路由 | 路由
----|---
-| [路由高亮RouterLinkActive](https://github.com/deepthan/blog-angular/issues/44)| [路由跳转RouterLink](https://github.com/deepthan/blog-angular/issues/45) |
 
 ## API
 方法名 | 方法名
@@ -55,6 +52,9 @@ i18n | i18n
 [DecimalPipe](https://github.com/deepthan/blog-angular/issues/41) | |
 
 
+路由 | 路由
+---|---
+| [路由高亮RouterLinkActive](https://github.com/deepthan/blog-angular/issues/44)| [路由跳转RouterLink](https://github.com/deepthan/blog-angular/issues/45) |
 
 ## 报错处理
 关键词 | 关键词
