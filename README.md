@@ -30,7 +30,7 @@
 | [路由预加载--预先加载延迟模块](https://github.com/deepthan/blog-angular/issues/4) | [Angular2+去除url中的#](https://github.com/deepthan/blog-angular/issues/5)  |
 | [ng-content在一个节点中插入另外的节点](https://github.com/deepthan/blog-angular/issues/6)   |  [Angular动画怎么写](https://github.com/deepthan/blog-angular/issues/15)    |
 | [Angular如何操作DOM?](https://github.com/deepthan/blog-angular/issues/9)    |   [不直接操作DOM改变DOM属性](https://github.com/deepthan/blog-angular/issues/17) |
-| [HTML里面写变量方法汇总](https://github.com/deepthan/blog-angular/issues/16)   |   [production环境中去除console信息 ](https://github.com/deepthan/blog-angular/issues/42) | 
+| [HTML里面写变量方法汇总](https://github.com/deepthan/blog-angular/issues/16)   |   [生产环境中去除console信息 ](https://github.com/deepthan/blog-angular/issues/42) | 
 | [Angular热替换（cli & webpack）](https://github.com/deepthan/blog-angular/issues/43) | [父子组件传递信息](https://github.com/deepthan/blog-angular/issues/14) |
 
 
@@ -166,11 +166,11 @@ i18n | i18n
 |  [Angular Universal](https://github.com/angular/universal) | |
 
 ## RxJS
-|                   项目简介       |                  项目地址                                                  |
+|                   介绍       |                 介绍     |
 |           ---------          |                   ---------        
-| [Rxjs入门篇： 基本原理](https://rxjs-cn.github.io/rxjs5-ultimate-cn/)  |   |                                           |
-|   [RxJS 英文文档](http://reactivex.io/rxjs/)  /  [RxJS 中文文档](http://cn.rx.js.org/)         |       [rxjs github地址](https://github.com/ReactiveX/rxjs)   |      
-|   [RxJS 中文社区](https://github.com/RxJS-CN)         |   [ngrx 管理angular里面的数据 类似于redux](https://github.com/ngrx/platform)   |
+| [Rxjs入门篇： 基本原理](https://rxjs-cn.github.io/rxjs5-ultimate-cn/)  |   [rxjs官方翻译文档](https://buctwbzs.gitbooks.io/rxjs/content/rookie-primer.html)     |
+| [RxJS 英文文档](http://reactivex.io/rxjs/)  /  [RxJS 中文文档](http://cn.rx.js.org/)         |       [rxjs github地址](https://github.com/ReactiveX/rxjs)   |      
+| [RxJS 中文社区](https://github.com/RxJS-CN)         |   [ngrx 管理angular里面的数据 类似于redux](https://github.com/ngrx/platform)   |
 |  手把手教你用ngrx管理Angular状态: [中文版](https://github.com/fezaoduke/TranslationInstitute/blob/master/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E7%94%A8ngrx%E7%AE%A1%E7%90%86Angular%E7%8A%B6%E6%80%81.md)/[英文版](https://auth0.com/blog/managing-state-in-angular-with-ngrx-store/)  | [学习Rxjs操作符](https://rxjs-cn.github.io/learn-rxjs-operators/about/)    |   
 
 ## typescript
