@@ -77,13 +77,16 @@ i18n | i18n
 
 
 # 其他学习资源
+| 标题 | 标题 |
+| --------- | --------- |
+| [github上搜索angular的正确姿势](https://github.com/search?utf8=%E2%9C%93&q=topic:angular&type=Repositories&ref=searchresults) || 
 
 ## 官网
 | 标题 | 标题 |
 | --------- | --------- |
 |   [英文官网](https://angular.io/)   / [官网源码](https://github.com/angular/angular)       | [中文官网](https://www.angular.cn/) / [官网源码](https://github.com/angular/angular-cn) |
 |   [Angular cli地址](https://github.com/angular/angular-cli)| [脚手架用法wiki](https://github.com/angular/angular-cli/wiki) |
-
+|   [用webpack配置的angular项目，带有很多功能](https://github.com/gdi2290/angular-starter) | |
 
 ## 开发环境配置
 | 标题 | 标题 |
@@ -140,11 +143,13 @@ i18n | i18n
 |   现已成书，较良心的教程                 |      [Angular 2.x 从0到1](https://github.com/wpcfan/awesome-tutorials/blob/master/angular2/ng2-tut/README.md) |
 |   汇智网的视频教学                     |     [Angular 2入门](http://www.hubwiz.com/course/5599d367a164dd0d75929c76/) |
 |   学习资源汇总                          |   [angular-education](https://github.com/timjacobi/angular-education)  |
+
 ## 别人的 Angular 博客
 |                   地址       |                  地址                                                      |
 |           ---------          |                   ---------                                                   |
 |     [Angular 2+ 专栏 ](https://github.com/lizhonghui/blogblog)            |            [Angular2一小时快速入门, 慕课网](http://www.imooc.com/learn/789)        |
-|  [angular 2 学习笔记](http://www.cnblogs.com/keatkeat/category/872790.html)  |  [thoughTram](https://blog.thoughtram.io/angular/2018/03/05/advanced-caching-with-rxjs.html)  |         
+|  [angular 2 学习笔记](http://www.cnblogs.com/keatkeat/category/872790.html)  |  [thoughTram](https://blog.thoughtram.io/angular/2018/03/05/advanced-caching-with-rxjs.html)  |       
+|  [todd英文优质博客，还卖教程](https://toddmotto.com) ||
 
 
 ## 提问交流社区
@@ -171,7 +176,8 @@ i18n | i18n
 | [Rxjs入门篇： 基本原理](https://rxjs-cn.github.io/rxjs5-ultimate-cn/)  |   [rxjs官方翻译文档](https://buctwbzs.gitbooks.io/rxjs/content/rookie-primer.html)     |
 | [RxJS 英文文档](http://reactivex.io/rxjs/)  /  [RxJS 中文文档](http://cn.rx.js.org/)         |       [rxjs github地址](https://github.com/ReactiveX/rxjs)   |      
 | [RxJS 中文社区](https://github.com/RxJS-CN)         |   [ngrx 管理angular里面的数据 类似于redux](https://github.com/ngrx/platform)   |
-|  手把手教你用ngrx管理Angular状态: [中文版](https://github.com/fezaoduke/TranslationInstitute/blob/master/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E7%94%A8ngrx%E7%AE%A1%E7%90%86Angular%E7%8A%B6%E6%80%81.md)/[英文版](https://auth0.com/blog/managing-state-in-angular-with-ngrx-store/)  | [学习Rxjs操作符](https://rxjs-cn.github.io/learn-rxjs-operators/about/)    |   
+|  手把手教你用ngrx管理Angular状态: [中文版](https://github.com/fezaoduke/TranslationInstitute/blob/master/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E7%94%A8ngrx%E7%AE%A1%E7%90%86Angular%E7%8A%B6%E6%80%81.md)/[英文版](https://auth0.com/blog/managing-state-in-angular-with-ngrx-store/)  | [学习Rxjs操作符](https://rxjs-cn.github.io/learn-rxjs-operators/about/)    |  
+| [rxjs视频教学（英）](https://coryrylan.com/blog/introduction-to-rxjs-observables-and-angular) | [官方出品--rxjs视频教学](https://egghead.io/lessons/rxjs-rxjs-observables-vs-promises) | 
 
 ## typescript
 | 说明 | 地址 |
