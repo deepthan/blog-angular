@@ -149,7 +149,7 @@ i18n | i18n
 |           ---------          |                   ---------                                                   |
 |     [Angular 2+ 专栏 ](https://github.com/lizhonghui/blogblog)            |            [Angular2一小时快速入门, 慕课网](http://www.imooc.com/learn/789)        |
 |  [angular 2 学习笔记](http://www.cnblogs.com/keatkeat/category/872790.html)  |  [thoughTram](https://blog.thoughtram.io/angular/2018/03/05/advanced-caching-with-rxjs.html)  |       
-|  [todd英文优质博客，还卖教程](https://toddmotto.com) ||
+|  [todd英文优质博客，还卖教程](https://toddmotto.com) | [知乎上Trotyl Yu](https://www.zhihu.com/people/trotyl/posts?page=1) |
 
 
 ## 提问交流社区
