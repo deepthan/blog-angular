@@ -71,6 +71,11 @@ i18n | i18n
 ---|---
 | [Jason Aden's 的关于风格指南的介绍](https://www.youtube.com/watch?v=unICbsPGFIA) |  | 
 
+typescript风格约定 | typescript风格约定
+---|---
+| [TSLint](https://palantir.github.io/tslint/) | [codelyzer](https://github.com/mgechev/codelyzer)  | 
+
+
 
 ## 博客搭建
 * [如何用Angular搭建githubPages或码云page](https://github.com/deepthan/blog-angular/issues/12)
