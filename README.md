@@ -65,6 +65,11 @@ i18n | i18n
 | [关于node-sass里面 vendor 缺失](https://github.com/deepthan/blog-angular/issues/38) | [关于phantormjs](https://github.com/deepthan/blog-angular/issues/39)|
 | [关于找不到 require或者module](https://github.com/deepthan/blog-angular/issues/40)  | 
 
+## 风格指南
+
+风格 | 指南
+---|---
+| [Jason Aden's 的关于风格指南的介绍](https://www.youtube.com/watch?v=unICbsPGFIA) |  | 
 
 
 ## 博客搭建
