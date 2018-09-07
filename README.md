@@ -119,14 +119,18 @@ typescript风格约定 | typescript风格约定
 |                   用途         |                  插件地址                                                      |
 |           ---------            |                   ---------                                                   |
 |   阿里开源的ui库ng-zorro                |        [api站点](https://ng.ant.design/#/docs/angular/introduce) / [国内镜像](http://ng-zorro.gitee.io/#/docs/angular/introduce)  /[github](https://github.com/NG-ZORRO/ng-zorro-antd)  |
+|   对 ng-zorro 做了一层封装的ui库 | [ng-alain](https://github.com/cipchk/ng-alain) | 
 |   angular版本bootsrap库[推荐]   |        [ngx-bootstrap](https://github.com/valor-software/ngx-bootstrap)       |
 |   angular版本bootsrap库   |        [ng-bootstrap](https://github.com/ng-bootstrap/ng-bootstrap)       |
 |   英文的Angular组件库             |        [Angular Material](https://material.angular.io/components/categories) | 
 |   英文的组件库                 |        [PrimeNG](https://www.primefaces.org/primeng/#/) | 
 |   FreeNG                       |        [FreeNG](https://github.com/valor-software/ngx-bootstrap)       |
 |   字体图标  | [Font Awesome （英）](http://fontawesome.io/icons/) 、[Font Awesome （中）](http://www.fontawesome.com.cn/) 、 [阿里的iconfont](http://iconfont.cn/)  |
-|   对 ng-zorro 做了一层封装的ui库 | [ng-alain](https://github.com/cipchk/ng-alain) | 
 
+## 案例项目(模板)
+|                   项目简介       |                  项目地址                                                      |
+|           ---------          |                   ---------                                                   |
+|   基于Angular4+的后台管理模板  |        [ngx-admin](https://github.com/akveo/ngx-admin)    |
 
 ## 插件篇
 |           用途              |                    插件地址                                                     |
@@ -136,10 +140,6 @@ typescript风格约定 | typescript风格约定
 |  上传插件                    |       [ng2-file-upload](https://github.com/valor-software/ng2-file-upload)     |
 |  select插件                 |        [ng2-select](https://github.com/valor-software/ng2-select)               |
 |  国际化i18n                  |       [ngx-translate](https://github.com/ngx-translate/core)  |
-## 案例项目(模板)
-|                   项目简介       |                  项目地址                                                      |
-|           ---------          |                   ---------                                                   |
-|   基于Angular4+的后台管理模板  |        [ngx-admin](https://github.com/akveo/ngx-admin)    |
 
 
 ## 系列教程
