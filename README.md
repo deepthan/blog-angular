@@ -35,7 +35,7 @@
 - [HTML里面写变量方法汇总](https://github.com/deepthan/blog-angular/issues/16)     
 - [生产环境中去除console信息 ](https://github.com/deepthan/blog-angular/issues/42) 
 - [Angular热替换（cli & webpack）](https://github.com/deepthan/blog-angular/issues/43)  
-- [父子组件传递信息](https://github.com/deepthan/blog-angular/issues/14) |
+- [父子组件传递信息](https://github.com/deepthan/blog-angular/issues/14)
 - [routerLink和routerLinkActive动态传参](https://github.com/deepthan/blog-angular/issues/46)
 
 ## API
