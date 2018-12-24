@@ -25,14 +25,18 @@
 ## 方法介绍
 *  [Angular开发必备技巧（持续更新）](https://github.com/deepthan/blog-angular/issues/10)
 
-方法名 | 方法名
----|---
-| [路由预加载--预先加载延迟模块](https://github.com/deepthan/blog-angular/issues/4) | [Angular2+去除url中的#](https://github.com/deepthan/blog-angular/issues/5)  |
-| [ng-content在一个节点中插入另外的节点](https://github.com/deepthan/blog-angular/issues/6)   |  [Angular动画怎么写](https://github.com/deepthan/blog-angular/issues/15)    |
-| [Angular如何操作DOM?](https://github.com/deepthan/blog-angular/issues/9)    |   [不直接操作DOM改变DOM属性](https://github.com/deepthan/blog-angular/issues/17) |
-| [HTML里面写变量方法汇总](https://github.com/deepthan/blog-angular/issues/16)   |   [生产环境中去除console信息 ](https://github.com/deepthan/blog-angular/issues/42) | 
-| [Angular热替换（cli & webpack）](https://github.com/deepthan/blog-angular/issues/43) | [父子组件传递信息](https://github.com/deepthan/blog-angular/issues/14) |
 
+- [路由预加载--预先加载延迟模块](https://github.com/deepthan/blog-angular/issues/4)
+- [Angular2+去除url中的#](https://github.com/deepthan/blog-angular/issues/5) 
+- [ng-content在一个节点中插入另外的节点](https://github.com/deepthan/blog-angular/issues/6)   
+- [Angular动画怎么写](https://github.com/deepthan/blog-angular/issues/15)    
+- [Angular如何操作DOM?](https://github.com/deepthan/blog-angular/issues/9)   
+- [不直接操作DOM改变DOM属性](https://github.com/deepthan/blog-angular/issues/17) 
+- [HTML里面写变量方法汇总](https://github.com/deepthan/blog-angular/issues/16)     
+- [生产环境中去除console信息 ](https://github.com/deepthan/blog-angular/issues/42) 
+- [Angular热替换（cli & webpack）](https://github.com/deepthan/blog-angular/issues/43)  
+- [父子组件传递信息](https://github.com/deepthan/blog-angular/issues/14) |
+- [routerLink和routerLinkActive动态传参](https://github.com/deepthan/blog-angular/issues/46)
 
 ## API
 方法名 | 方法名
