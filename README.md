@@ -1,203 +1,352 @@
- blog-Angular2+
+<img src="https://angular.io/assets/images/logos/angular/angular.svg" width="240">
+
+#### *希望让您更轻松地使用angular*
+
+##### 目前版本:
+
+![version](https://img.shields.io/npm/v/@angular/core.svg?maxAge=2592000)
+
+#### *贡献*
+
+*请添加上名称和链接发送一个pull request，感谢!*
+
+Angular回忆录
  ===========================
- 一个关于Angular的技术博客，详解Angular配置文件、使用方法、小技巧等。
+ 一个关于Angular的学习和使用笔记。
  
- 
-****
+ > 即将更换技术栈，写点笔记做个总结，希望可以帮到你，也希望有更多公司可以使用Angular~
 
 |Author|deepthan|
 |---|---
 |E-mail|deepthan@163.com
 
-****
+### 概念理解
 
-## 基础概念
-* [Angularjs与Angular概念区分](https://github.com/deepthan/blog-angular/issues/1)
+* [Angular必知八大概念](https://github.com/deepthan/blog-angular/issues/48)
+* [angularjs与angular概念区分](https://github.com/deepthan/blog-angular/issues/1)
 * [白话Angular词汇](https://github.com/deepthan/blog-angular/issues/7)
-* [AOT编译](https://github.com/deepthan/blog-angular/issues/8)
+* [AOT 编译介绍](https://github.com/deepthan/blog-angular/issues/8)
 
+### 脚手架 Angular cli 
 
-## 文件配置详解
-* [Angular配置文件之环境配置](https://github.com/deepthan/blog-angular/issues/2)
-* [Angular配置文件之.angular-cli.json介绍 ](https://github.com/deepthan/blog-angular/issues/3)
-* [package.json里‘’^ ~“符号的意思](https://github.com/deepthan/blog-angular/issues/29)
+* [cli 用法](https://github.com/deepthan/blog-angular/issues/49)
+* [proxy 配置](https://github.com/deepthan/blog-angular/issues/50)
 
-## 方法介绍
-*  [Angular开发必备技巧（持续更新）](https://github.com/deepthan/blog-angular/issues/10)
+### 装饰器@
 
+* [class装饰器](https://github.com/deepthan/blog-angular/issues/51)
+* [viewChild](52)
 
-- [路由预加载--预先加载延迟模块](https://github.com/deepthan/blog-angular/issues/4)
-- [Angular2+去除url中的#](https://github.com/deepthan/blog-angular/issues/5) 
-- [ng-content在一个节点中插入另外的节点](https://github.com/deepthan/blog-angular/issues/6)   
-- [Angular动画怎么写](https://github.com/deepthan/blog-angular/issues/15)    
-- [Angular如何操作DOM?](https://github.com/deepthan/blog-angular/issues/9)   
-- [不直接操作DOM改变DOM属性](https://github.com/deepthan/blog-angular/issues/17) 
-- [HTML里面写变量方法汇总](https://github.com/deepthan/blog-angular/issues/16)     
-- [生产环境中去除console信息 ](https://github.com/deepthan/blog-angular/issues/42) 
-- [Angular热替换（cli & webpack）](https://github.com/deepthan/blog-angular/issues/43)  
-- [父子组件传递信息](https://github.com/deepthan/blog-angular/issues/14)
-- [routerLink和routerLinkActive动态传参](https://github.com/deepthan/blog-angular/issues/46)
+### 路由 router
 
-## API
-方法名 | 方法名
----|---
-[ngClass](https://github.com/deepthan/blog-angular/issues/13) | |
+* [RouterLink](https://github.com/deepthan/blog-angular/issues/53)
+* [navigateByUrl vs navigate](https://github.com/deepthan/blog-angular/issues/54)
+* [routerLink和routerLinkActive动态传参](https://github.com/deepthan/blog-angular/issues/46)
+* [Routes介绍](https://github.com/deepthan/blog-angular/issues/55)
+* [路由高亮--长明灯RouterLinkActive](https://github.com/deepthan/blog-angular/issues/56)
+* [路由守卫，拦截懒加载，拦截预加载，离开验证](https://github.com/deepthan/blog-angular/issues/57)
+* [预加载](https://github.com/deepthan/blog-angular/issues/4)
+* [Angular2+去除url中的#](https://github.com/deepthan/blog-angular/issues/5)
+* [获取当前路由](https://github.com/deepthan/blog-angular/issues/58)
 
-animation | animation 
----|---
-| [trigger](https://github.com/deepthan/blog-angular/issues/18) | [state](https://github.com/deepthan/blog-angular/issues/19) |  
-| [transition](https://github.com/deepthan/blog-angular/issues/20) | [animate](https://github.com/deepthan/blog-angular/issues/21) | 
-| [style](https://github.com/deepthan/blog-angular/issues/22)   | [keyframes](https://github.com/deepthan/blog-angular/issues/23) |
-| [query](https://github.com/deepthan/blog-angular/issues/24)   | [sequence](https://github.com/deepthan/blog-angular/issues/25) | 
-| [group](https://github.com/deepthan/blog-angular/issues/27)   | [AnimationOptions](https://github.com/deepthan/blog-angular/issues/28)|
-    
-i18n | i18n
----|---
-[DecimalPipe](https://github.com/deepthan/blog-angular/issues/41) | |
+### 组件 Component
 
-路由 | 路由
----|---
-| [路由高亮RouterLinkActive](https://github.com/deepthan/blog-angular/issues/44)| [路由跳转RouterLink](https://github.com/deepthan/blog-angular/issues/45) |
+* [组件的生命周期]()
+* [组件间通信]()
+* [动态组件]()
+* [angular如何主动销毁组件]()
+* [组件监听传过来值变化的若干姿势]()
+* [如何将字符串的html渲染到dom元素中]()
+* [父组件往子组件传递数据时ngOnChanges检测不到输入值的变化]()
+* [Angular 2+模板语法](https://github.com/kittencup/angular2-ama-cn/issues/64)
+* [如何重新渲染组件](https://stackoverflow.com/a/35106069/10394361)
 
-## 报错处理
-关键词 | 关键词
----|---
-| [关于function 、lambda、not supported等](https://github.com/deepthan/blog-angular/issues/30) | [关于polyfills.ts、'es5-shim'、'es6-shim'](https://github.com/deepthan/blog-angular/issues/31) |  
-| [关于Observable、map的问题](https://github.com/deepthan/blog-angular/issues/32) |[ 关于'Http' ](https://github.com/deepthan/blog-angular/issues/33) | 
-| [关于找不到模块](https://github.com/deepthan/blog-angular/issues/34) | [关于表单form](https://github.com/deepthan/blog-angular/issues/35 ) |
-| [关于Debug Failure](https://github.com/deepthan/blog-angular/issues/36) | [ 关于RangeError: Maximum call stack size exceeded](https://github.com/deepthan/blog-angular/issues/37) |
-| [关于node-sass里面 vendor 缺失](https://github.com/deepthan/blog-angular/issues/38) | [关于phantormjs](https://github.com/deepthan/blog-angular/issues/39)|
-| [关于找不到 require或者module](https://github.com/deepthan/blog-angular/issues/40)  | 
+### 指令 Directive
 
-## 风格指南
+* [ngIf]()
+* [ngFor]()
+* [ngSwitch]()
+* [ngClass]()
+* [ngStyle]()
+* [ng-template]()
+* [ng-content]()
+* [ng-container vs ngTemplateOutlet]()
+* [NgTemplateOutlet]()
+* [Angular如何自定义指令]()
+* [ngIf里面使用正则表达式]()
+* [如何根据条件决定是否添加指令]()
+* [一个文件中同一段html被多次用到怎么抽离]()
+* [ngPreserveWhitespaces和NgNonBindable](http://www.ngbeijing.cn/2018/08/27/2018-8-27-ngPreserveWhitespaces-NgNonbindable/)
 
-风格 | 指南
----|---
-| [Jason Aden's 的关于风格指南的介绍](https://www.youtube.com/watch?v=unICbsPGFIA) |  | 
+### 管道 Pipe
 
-typescript风格约定 | typescript风格约定
----|---
-| [TSLint](https://palantir.github.io/tslint/) | [codelyzer](https://github.com/mgechev/codelyzer)  | 
+* [DecimalPipe]()
+* [AsyncPipe]()
+* [如何写一个日期转换管道]()
+* [如何自定义管道]()
+* [如何让字符串的dom元素渲染到页面上]()
 
+### 动画
 
+* [trigger](https://github.com/deepthan/blog-angular/issues/18)
+* [state](https://github.com/deepthan/blog-angular/issues/19)
+* [transition](https://github.com/deepthan/blog-angular/issues/20)
+* [animate](https://github.com/deepthan/blog-angular/issues/21)
+* [style](https://github.com/deepthan/blog-angular/issues/22)
+* [keyframes](https://github.com/deepthan/blog-angular/issues/23)
+* [query](https://github.com/deepthan/blog-angular/issues/24)
+* [sequence](https://github.com/deepthan/blog-angular/issues/25)
+* [group](https://github.com/deepthan/blog-angular/issues/27)
+* [AnimationOptions](https://github.com/deepthan/blog-angular/issues/28)
+* [Web Animations API](https://drafts.csswg.org/web-animations/) ： Angular动画基准
 
-## 博客搭建
-* [如何用Angular搭建githubPages或码云page](https://github.com/deepthan/blog-angular/issues/12)
+### DOM
 
+* [Angular如何操作DOM](https://github.com/deepthan/blog-angular/issues/9)
+* [Angular如何获取dom节点]()
+* [Angular中其实你不需要直接操作DOM](https://github.com/deepthan/blog-angular/issues/17)
 
-<!-- ## readme写作方法
-* [github上的](https://github.com/guodongxiaren/README#%E6%A8%AA%E7%BA%BF)
-* [博客上的](http://blog.csdn.net/guodongxiaren/article/details/23690801) -->
+### 事件
 
+* [html事件写法]()
+* [js添加事件监听]()
+* [如何监听变量变化]()
+* [拖动和点击同时触发解决办法]()
 
-# 其他学习资源
-| 标题 | 标题 |
-| --------- | --------- |
-| [github上搜索angular的正确姿势](https://github.com/search?utf8=%E2%9C%93&q=topic:angular&type=Repositories&ref=searchresults) || 
+### 表单表格
 
-## 官网
-| 标题 | 标题 |
-| --------- | --------- |
-|   [英文官网](https://angular.io/)   / [官网源码](https://github.com/angular/angular)       | [中文官网](https://www.angular.cn/) / [官网源码](https://github.com/angular/angular-cn) |
-|   [Angular cli地址](https://github.com/angular/angular-cli)| [脚手架用法wiki](https://github.com/angular/angular-cli/wiki) |
-|   [用webpack配置的angular项目，带有很多功能](https://github.com/gdi2290/angular-starter) | |
+* [获取表单的值]()
+* [设置表单值 FormControl setValue]()
+* [如何禁用表单]()
+* [如何提取table中tr为组件]()
+* [Angular 2, NgModel and Custom Form Components](https://rangle.io/blog/angular-2-ngmodel-and-custom-form-components/)
+* [How to create custom input component with ngModel working in angular?](https://stackoverflow.com/questions/50618050/how-to-create-custom-input-component-with-ngmodel-working-in-angular-6)
+* [never-again-be-confused-when-implementing-controlvalueaccessor-in-angular-forms](https://indepth.dev/never-again-be-confused-when-implementing-controlvalueaccessor-in-angular-forms/)
 
-## 开发环境配置
-| 标题 | 标题 |
-| --------- | --------- |
-|[用WebStorm进行Angular开发](http://blog.csdn.net/pointer_v/article/details/55096197)|    |
+### 安全 Security 
 
+* [Angular 安全管道使用方法]()
 
-## 实现原理
-| 标题 | 标题 |
-| --------- | --------- |
-| Angular动画基准：[Web Animations API](https://drafts.csswg.org/web-animations/)|    |
+### 变化检测
 
-<!--   
-## 配置完成的项目  
-1. 这个是配置好的可以直接下载下来用的：  
-2. 模块懒加载，模块预加载，开始的loading动画
-3. css 封装，去除url中的#，路由守卫，目结结构（怎样才能找起来方便不乱） -->
+* [edu-angular-change-detection](https://danielwiehl.github.io/edu-angular-change-detection/) : 图形化地显示变化过程
+* [Angular：单向数据流](https://limeii.github.io/2019/06/angular-unidirectional-data-flow/)
+* [Angular Change Detection：变化检测机制](https://limeii.github.io/2019/06/angular-changedetection/)
+* [ngular Change Detection：变化检测策略](https://limeii.github.io/2019/06/angular-changeDetectionStrategy-OnPush/)
+* [Angular变化检测机制：改善的脏检查](https://wufenfen.github.io/2017/07/15/Angular%E5%8F%98%E5%8C%96%E6%A3%80%E6%B5%8B%E6%9C%BA%E5%88%B6%EF%BC%9A%E6%94%B9%E5%96%84%E7%9A%84%E8%84%8F%E6%A3%80%E6%9F%A5/)
+* [[译] 你真的知道 Angular 单向数据流吗](https://segmentfault.com/a/1190000013965691)
+* [Angular DOM 更新机制](https://zhuanlan.zhihu.com/p/96640047)
+* [10 Things Every Angular Developer Should Know About Zone.js](https://medium.com/better-programming/zone-js-for-angular-devs-573d89bbb890)
+* [Understanding Zones](https://blog.thoughtram.io/angular/2016/01/22/understanding-zones.html)
+* [Angular Elements without Zone. Js](https://www.angulararchitects.io/aktuelles/angular-elements-part-iii/)
+* [How Angular uses NgZone/Zone.js for Dirty Checking](https://blog.bitsrc.io/how-angular-uses-ngzone-zone-js-for-dirty-checking-faa12f98cd49)
 
-## UI 库
-|                   用途         |                  插件地址                                                      |
-|           ---------            |                   ---------                                                   |
-|   阿里开源的ui库ng-zorro                |        [api站点](https://ng.ant.design/#/docs/angular/introduce) / [国内镜像](http://ng-zorro.gitee.io/#/docs/angular/introduce)  /[github](https://github.com/NG-ZORRO/ng-zorro-antd)  |
-|   对 ng-zorro 做了一层封装的ui库 | [ng-alain](https://github.com/cipchk/ng-alain) | 
-|   angular版本bootsrap库[推荐]   |        [ngx-bootstrap](https://github.com/valor-software/ngx-bootstrap)       |
-|   angular版本bootsrap库   |        [ng-bootstrap](https://github.com/ng-bootstrap/ng-bootstrap)       |
-|   英文的Angular组件库             |        [Angular Material](https://material.angular.io/components/categories) | 
-|   英文的组件库                 |        [PrimeNG](https://www.primefaces.org/primeng/#/) | 
-|   FreeNG                       |        [FreeNG](https://github.com/valor-software/ngx-bootstrap)       |
-|   字体图标  | [Font Awesome （英）](http://fontawesome.io/icons/) 、[Font Awesome （中）](http://www.fontawesome.com.cn/) 、 [阿里的iconfont](http://iconfont.cn/)  |
+### 配置文件
 
-## 案例项目(模板)
-|                   项目简介       |                  项目地址                                                      |
-|           ---------          |                   ---------                                                   |
-|   基于Angular4+的后台管理模板  |        [ngx-admin](https://github.com/akveo/ngx-admin)    |
+* [环境配置]()
+* [Angular热替换（cli & webpack）]()
+* [package.json里‘’^ ~“符号的意思]()
+* [tsconfig.json编译选项]()
 
-## 插件篇
-|           用途              |                    插件地址                                                     |
-|           ---------          |                   ---------                                                   |
-|   拖拽插件                   |       [ng2-dragula](https://github.com/valor-software/ng2-dragula)             |
-|   图表插件                    |       [ng2-charts](https://github.com/valor-software/ng2-charts)  / [ngx-echarts](https://github.com/xieziyu/ngx-echarts)          |
-|  上传插件                    |       [ng2-file-upload](https://github.com/valor-software/ng2-file-upload)     |
-|  select插件                 |        [ng2-select](https://github.com/valor-software/ng2-select)               |
-|  国际化i18n                  |       [ngx-translate](https://github.com/ngx-translate/core)  |
+### 摇树优化 tree shaking
 
+* [Angular性能优化：Tree Shaking](https://limeii.github.io/2019/08/angular-tree-shaking/)
+* [Webpack Tree shaking 深入探究](https://juejin.im/post/5bb8ef58f265da0a972e3434)
+* [Build a Tree-Shaking Utility in JavaScript](https://blog.bitsrc.io/build-a-tree-shaking-utility-in-javascript-c6b13e469121)
 
-## 系列教程
-|                   用途                |                  地址                                                                      |
-|           ---------                  |                   ---------                                                                  |
-|   基础教程，偏基础                      |       [ Angular 2 之一 系统架构](http://www.angularjs.cn/A2uA)                                |
-|   教学视频(英)                          |       [angular-university](https://angular-university.io/home)                              |
-|   教学网站(英) ，偏基础                 |       [ANGULAR 2 TUTORIAL](http://www.angulartypescript.com/angular-2-tutorial/)                  |
-|   里面介绍了使用方法，相关概念等，较全。  |        [Angular 2 Training 中文版](https://zhangchen915.gitbooks.io/angular2-training/content/content/vs_react.html) |
-|   质量较高的系列教程                    |              [Angular 4.x 修仙之路](https://segmentfault.com/a/1190000008754631?t=1232145435)    |
-|   现已成书，较良心的教程                 |      [Angular 2.x 从0到1](https://github.com/wpcfan/awesome-tutorials/blob/master/angular2/ng2-tut/README.md) |
-|   汇智网的视频教学                     |     [Angular 2入门](http://www.hubwiz.com/course/5599d367a164dd0d75929c76/) |
-|   学习资源汇总                          |   [angular-education](https://github.com/timjacobi/angular-education)  |
+### 兼容性
 
-## 别人的 Angular 博客
-|                   地址       |                  地址                                                      |
-|           ---------          |                   ---------                                                   |
-|     [Angular 2+ 专栏 ](https://github.com/lizhonghui/blogblog)            |            [Angular2一小时快速入门, 慕课网](http://www.imooc.com/learn/789)        |
-|  [angular 2 学习笔记](http://www.cnblogs.com/keatkeat/category/872790.html)  |  [thoughTram](https://blog.thoughtram.io/angular/2018/03/05/advanced-caching-with-rxjs.html)  |       
-|  [todd英文优质博客，还卖教程](https://toddmotto.com) | [知乎上Trotyl Yu](https://www.zhihu.com/people/trotyl/posts?page=1) |
+* [如何兼容IE](https://github.com/jiayisheji/blog/issues/22)
 
+### 打包优化
 
-## 提问交流社区
-|                   地址                                                                   |                  地址                                                      |
-|           ---------                                                                     |                   ---------                                                   |
-|   [angular2 随便问(Ask me anything!)](https://github.com/kittencup/angular2-ama-cn)      |        [stackoverflow：英文的提问社区，很强大](https://stackoverflow.com/)               |
+* [一招让Angular-cli速度增强](https://github.com/jiayisheji/blog/issues/22)
+* [How to speed up the Angular build process](https://stackoverflow.com/a/45245580/10394361)
+* [AOT build fails due to "JavaScript heap out of memory"](https://github.com/angular/angular-cli/issues/5618)
 
-## 升级
-| 说明 | 地址|
-| --- | --- |
-| A版本到B版本有哪些改变 | [Angular Update Guide](https://angular-update-guide.firebaseapp.com/)|
-| angular更新记录  | [changeLog](https://github.com/angular/angular/blob/master/CHANGELOG.md) |
+### 第三方库集成
 
+* [augury: ](): Angular调试和可视化工具
+* [集成富文本编辑器 tinymce]()
+* [tinymce使用方法和踩坑指南]()
+* [国际化集成ngx-translate]()
+* [集成echart]()
+* [集成font-awesome]()
+* [集成ng-zorro-antd]()
+* [集成push.js]()
+* [集成提示框]()
+* [集成预览表格内容js-xlsx]()
 
+### 代码规范
 
-## angular 如何解决seo问题
-| 地址 | 地址 |
-| --- | --- |
-|  [Angular Universal](https://github.com/angular/universal) | |
+* [angular项目如何做代码格式规范]()
+* [tslint规则]()
+* [TSLint 和 Codelyzer 核心规则]()
+* [Prettier]()
+* [prettier-vscode]()
 
-## RxJS
-|                   介绍       |                 介绍     |
-|           ---------          |                   ---------        
-| [Rxjs入门篇： 基本原理](https://rxjs-cn.github.io/rxjs5-ultimate-cn/)  |   [rxjs官方翻译文档](https://buctwbzs.gitbooks.io/rxjs/content/rookie-primer.html)     |
-| [RxJS 英文文档](http://reactivex.io/rxjs/)  /  [RxJS 中文文档](http://cn.rx.js.org/)         |       [rxjs github地址](https://github.com/ReactiveX/rxjs)   |      
-| [RxJS 中文社区](https://github.com/RxJS-CN)         |   [ngrx 管理angular里面的数据 类似于redux](https://github.com/ngrx/platform)   |
-|  手把手教你用ngrx管理Angular状态: [中文版](https://github.com/fezaoduke/TranslationInstitute/blob/master/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E7%94%A8ngrx%E7%AE%A1%E7%90%86Angular%E7%8A%B6%E6%80%81.md)/[英文版](https://auth0.com/blog/managing-state-in-angular-with-ngrx-store/)  | [学习Rxjs操作符](https://rxjs-cn.github.io/learn-rxjs-operators/about/)    |  
-| [rxjs视频教学（英）](https://coryrylan.com/blog/introduction-to-rxjs-observables-and-angular) | [官方出品--rxjs视频教学](https://egghead.io/lessons/rxjs-rxjs-observables-vs-promises) | 
+### Angualr CDK
 
-## typescript
-| 说明 | 地址 |
-| --- | --- |
-|  [typescript中文网](https://www.tslang.cn/) |  [typescript官网（英）](https://www.typescriptlang.org/index.html) |
-|  [github源码仓库](https://github.com/Microsoft/TypeScript) | | 
+* [如何做一个绝对定位]()
+* [虚拟滚动例子]()
+* [虚拟列表的一般实现]()
+* [ConnectionPositionPair]()
+* [拖拽](https://material.angular.io/cdk/drag-drop/examples)
+* [CDK系列教程](https://www.jianshu.com/p/4885b1a4c0c9)
 
-## 诗词接口
-- [chinese-poetry](https://github.com/chinese-poetry/chinese-poetry)
+### npm 包开发
+
+* [使用 ng-packagr开发npm包](https://github.com/ng-packagr/ng-packagr)
+* [打包遇到的坑]()
+* [安装system]()
+
+### 开发中报错解决
+
+* [ No NgModule metadata found for 'AppModule'.]()
+* [ No value accessor for form control with name xxx]()
+* [Can't bind to 'ngModel' since it isn't a known property of 'input'.]()
+* [No provider for ChildrenOutletContexts (injectionError)]()
+* [RangeError Maximum call stack size exceeded 最大调用堆栈大小超出]()
+* [ngIf的时候报No provider for TemplateRef!]()
+* [ngular TypeError “remove”TypeError 无法获取未定义或 null 引用的属性“remove”]()
+* [sockjs-node请求报 400]()
+* [typescript getting error TS2304 cannot find name ' require']()
+* [本地运行不报错但是打包到服务器报不知名错误]()
+* [打包报错, 内存不够或溢出]()
+* [关于npm的错误]()
+* [关于function 、lambda、not supported等](https://github.com/deepthan/blog-angular/issues/30)
+* [关于polyfills.ts、'es5-shim'、'es6-shim'](https://github.com/deepthan/blog-angular/issues/31)
+* [关于Observable、map的问题](https://github.com/deepthan/blog-angular/issues/32)
+* [关于'Http' is not assignable to parameter of type 'Http' ](https://github.com/deepthan/blog-angular/issues/33)
+* [关于找不到模块](https://github.com/deepthan/blog-angular/issues/34)
+* [Can't bind to 'formGroup' since it isn't a known property of 'form'](https://github.com/deepthan/blog-angular/issues/35)
+* [ERROR in Error: Debug Failure. False expression.](https://github.com/deepthan/blog-angular/issues/36)
+* [关于node-sass里面 vendor 缺失](https://github.com/deepthan/blog-angular/issues/38)
+* [关于phantormjs](https://github.com/deepthan/blog-angular/issues/39)
+* [关于找不到 require或者module](https://github.com/deepthan/blog-angular/issues/40)
+
+### 单元测试 Unit Test
+
+* [单元测试方法]()
+* [单元测试案例]()
+
+###  端到端测试 E2E
+
+* [Angular e2e 介绍]()
+* [E2E测试]()
+* [E2E报错]()
+* [protractor-styleguide](https://github.com/CarmenPopoviciu/protractor-styleguide) : 编码风格指南
+* [protractortest 官网](http://www.protractortest.org/#/)
+* [tutorial](http://www.protractortest.org/#/tutorial) : E2E教学
+* [Protractor API ](http://www.protractortest.org/#/api?view=webdriver. By.className)
+* [introduction-to-e2e-testing-with-the-angular-cli-and-protractor](https://coryrylan.com/blog/introduction-to-e2e-testing-with-the-angular-cli-and-protractor)：Cory Rylan写的E2E指导
+* [ng-pokedex](https://github.com/coryrylan/ng-pokedex): Cory Rylan写的E2E配套案例项目
+* [End to End(E2E) Tests in Angular Application Using Protractor](https://medium.com/medialesson/end-to-end-e2e-tests-in-angular-application-using-protractor-3fd2501bb3c0)
+* [Automate End to end (e2e) testing for Angular 7 using Protractor & Jasmine](https://medium.com/@dhormale/automate-end-to-end-e2e-testing-for-angular-7-using-protractor-jasmine-4ce171aaeedc)
+
+### Angular 升级
+
+* [Angular 8新增了哪些功能]()
+* [升级angualr8项目需要做的更改]()
+* [A版本到B版本需要修改哪些](https://angular-update-guide.firebaseapp.com/)
+* [Angular更新记录](https://github.com/angular/angular/blob/master/CHANGELOG.md)
+* [弃用的 API 和特性](https://angular.cn/guide/deprecations)
+
+### 服务端渲染
+
+* [官网universal](https://angular.cn/guide/universal)
+* [Server Side Rendering with Angular Universal](https://www.digitalocean.com/community/tutorials/angular-angular-universal)
+
+### 实用技巧
+
+* [hidden属性]()
+* [获取document、window]()
+* [包的加载速度优化]()
+* [如何覆盖第三方库css]()
+* [如何换个端口启动项目？]()
+* [如何让别人可以访问自己本地启动的服务]()
+* [项目中引入图片之类静态资源文件方法]()
+* [在页面打印出json对象]()
+* [github上搜索angular的正确姿势](https://github.com/search?utf8=%E2%9C%93&q=topic:angular&type=Repositories&ref=searchresults)
+* [how-to-use-angular-console](https://auth0.com/blog/how-to-use-angular-console/)
+* [48-answers-on-stack-overflow-to-the-most-popular-angular-questions](https://www.freecodecamp.org/news/48-answers-on-stack-overflow-to-the-most-popular-angular-questions-52f9eb430ab0/)
+
+### 好用的vscode 插件
+
+* [vscode插件](https://github.com/deepthan/blog-angular/issues/47)
+
+### 好用的工具
+
+* [网页性能分析](https://sq.163yun.com/blog/article/188103475918028800)
+* [caniuse.com](https://caniuse.com/#feat=css-transitions) ： 查询兼容性
+* [abbreviations](https://www.abbreviations.com/abbreviation/emergency) ： 查询单词缩写，妈妈再也不担心我写出魔鬼缩写了。
+* [代码示例网站 stackblitz](https://stackblitz.com/edit/ngx-validate?file=src%2Fapp%2Fcomponents%2Fapp.component.html)
+* [代码示例网站 jshare](https://jshare.com.cn/hcharts.cn/epC8wG)
+* [json转换](https://www.json.cn/#)
+* [axure](https://www.axure.com/) : 原型工具
+* [在线加密解密](https://tool.oschina.net/encrypt?type=3)
+
+## Angular及相关技术网站
+
+### Angular
+
+* Angular 官网：[中文文档](https://www.angular.cn/)  | [英文文档](https://angular.io/) | [github](https://github.com/angular/angular)
+* Angular 脚手架：[中文官网](https://angular.cn/cli) | [github](https://github.com/angular/angular-cli)
+* Angular cdk：[中文](https://material.angular.cn/cdk/categories) | [英文](https://material.angular.cn/cdk/drag-drop/overview) 
+* [ngrx](https://ngrx.io/) : Angular状态管理
+* [手把手教你用ngrx管理Angular状态](https://github.com/fezaoduke/TranslationInstitute/blob/master/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E7%94%A8ngrx%E7%AE%A1%E7%90%86Angular%E7%8A%B6%E6%80%81.md)
+* [Angular Console — The UI for the Angular CLI](https://blog.nrwl.io/angular-console-the-ui-for-the-angular-cli-a5d0924240b7) : Angular界面化操作
+* [bit](https://github.com/teambit/bit)
+
+### Typescript
+
+* [官网](https://www.typescriptlang.org/index.html)
+* [Typescript入门教程](https://ts.xcatliu.com/advanced/tuple) : 较为系统，推荐学习下
+
+### rxjs
+
+* rxjs5 基本原理 : [中文官网](https://rxjs-cn.github.io/rxjs5-ultimate-cn) | [英文官网](https://www.gitbook.com/book/chrisnoring/rxjs-5-ultimate/details)
+* [rxjs实战](https://github.com/lizhonghui/blog/issues/6)
+* [rxjs 优质翻译文章](https://github.com/RxJS-CN/rxjs-articles-translation)
+* 官方中文文档操作符篇 : [中文](http://cn.rx.js.org/class/es6/Observable.js~Observable.html) | [英文](http://reactivex.io/rxjs/)
+* [学习 rxjs 操作符](https://rxjs-cn.github.io/learn-rxjs-operators/)
+* [词汇表](https://github.com/RxJS-CN/RxJS-Docs-CN/wiki/RxJS-%E8%AF%8D%E6%B1%87%E8%A1%A8)
+* [构建流式应用—RxJS详解](http://www.alloyteam.com/2016/12/learn-rxjs/)
+* [官方出品--rxjs视频教学（英）](https://egghead.io/lessons/rxjs-rxjs-observables-vs-promises)
+
+### Angular 教程
+
+* [ Angular 2 之一 系统架构](http://www.angularjs.cn/A2uA) : 偏基础 
+* [angular-university](https://angular-university.io/home)
+* [Angular 2 Training 中文版](https://zhangchen915.gitbooks.io/angular2-training/content/content/vs_react.html)
+* [Angular 4.x 修仙之路](https://segmentfault.com/a/1190000008754631?t=1232145435) : 质量较高的系列教程
+*  [Angular 2.x 从0到1](https://github.com/wpcfan/awesome-tutorials/blob/master/angular2/ng2-tut/README.md) : 现已成书
+* [limeii Angular 博客](https://limeii.github.io/#blog)： 国内女性Angular开发者，写的内容挺好
+*  [Angular 2入门](http://www.hubwiz.com/course/5599d367a164dd0d75929c76/) : 汇智网的视频教学
+*  [angular-education](https://github.com/timjacobi/angular-education) : 学习资源汇总
+* [Angular 大師之路](https://ithelp.ithome.com.tw/users/20020617/ironman/1630)
+* [ultimatecourses.com](https://ultimatecourses.com/blog/category/angular/)
+* [appdividend.com](https://appdividend.com/category/angular/)
+* [medium.com](https://medium.com/search?q=angular) : 里面很多高质量博客
+* [learnangularjs.net](http://www.learnangularjs.net/)
+
+### Angular案例项目
+
+*  [angular-starter](https://github.com/gdi2290/angular-starter) ： 用webpack配置的angular项目，带有很多功能
+*  [ng-alain](https://github.com/cipchk/ng-alain) :ng-zorro的维护者开源的一个后台管理系统
+*  [ngx-admin](https://github.com/akveo/ngx-admin)
+
+### UI库
+
+*  [ng-zorro-antd]()：阿里开源的 ant design风格的UI库，功能较全。
+*  [ngx-bootstrap](https://github.com/valor-software/ngx-bootstrap)：angular版本bootsrap库
+*  [Angular Material](https://material.angular.io/components/categories)：Angular团队开源的组件库，功能不够强大，需要二次封装
+*  [PrimeNG](https://www.primefaces.org/primeng/#/)
+*  [FreeNG](https://github.com/valor-software/ngx-bootstrap) 
+* [angular-grid](https://angular-grid.ag-grid.com/?utm_source=medium&utm_medium=blog&utm_campaign=angularcustom) : Angular 表格
+* [ng-devui](https://github.com/DevCloudFE/ng-devui) : 华为云DevCloud，基于Angular的企业级前端组件库
+
+### Angular 开发者大会
+
+* [2019 ngChina 开发者大会](https://ng-china.org/)
+
