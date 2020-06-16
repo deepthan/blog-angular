@@ -1,6 +1,6 @@
 <img src="https://angular.io/assets/images/logos/angular/angular.svg" width="240">
 
-#### *希望让您更轻松地使用angular*
+#### *希望让您更轻松地使用 Angular*
 
 ##### 目前版本:
 
