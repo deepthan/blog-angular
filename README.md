@@ -6,15 +6,11 @@
 
 ![version](https://img.shields.io/npm/v/@angular/core.svg?maxAge=2592000)
 
-#### *贡献*
-
-*请添加上名称和链接发送一个pull request，感谢!*
-
 Angular回忆录
  ===========================
  一个关于Angular的学习和使用笔记。
  
- > 即将更换技术栈，写点笔记做个总结，希望可以帮到你，也希望有更多公司可以使用Angular~
+ > 跑路去玩vue了，写点笔记做个总结，希望可以帮到你，也希望有更多公司可以使用Angular~
 
 |Author|deepthan|
 |---|---
@@ -35,7 +31,7 @@ Angular回忆录
 ### 装饰器@
 
 * [class装饰器](https://github.com/deepthan/blog-angular/issues/51)
-* [viewChild](52)
+* [viewChild](https://github.com/deepthan/blog-angular/issues/52)
 
 ### 路由 router
 
@@ -51,7 +47,7 @@ Angular回忆录
 
 ### 组件 Component
 
-* [组件的生命周期]()
+* [组件的生命周期](https://github.com/deepthan/blog-angular/issues/59)
 * [组件间通信]()
 * [动态组件]()
 * [angular如何主动销毁组件]()
