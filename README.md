@@ -66,11 +66,11 @@ Angular回忆录
 - [ngPreserveWhitespaces和NgNonBindable](http://www.ngbeijing.cn/2018/08/27/2018-8-27-ngPreserveWhitespaces-NgNonbindable/)
 
 ### 管道 Pipe
-- [DecimalPipe]()
-- [AsyncPipe]()
-- [如何写一个日期转换管道]()
-- [如何自定义管道]()
-- [如何让字符串的dom元素渲染到页面上]()
+- [DecimalPipe](https://github.com/deepthan/blog-angular/issues/80)
+- [AsyncPipe](https://github.com/deepthan/blog-angular/issues/81)
+- [如何写一个日期转换管道](https://github.com/deepthan/blog-angular/issues/82)
+- [如何自定义管道](https://github.com/deepthan/blog-angular/issues/83)
+- [如何让字符串的dom元素渲染到页面上](https://github.com/deepthan/blog-angular/issues/84)
 
 ### 动画
 - [trigger](https://github.com/deepthan/blog-angular/issues/18)
@@ -84,9 +84,10 @@ Angular回忆录
 - [group](https://github.com/deepthan/blog-angular/issues/27)
 - [AnimationOptions](https://github.com/deepthan/blog-angular/issues/28)
 - [Web Animations API](https://drafts.csswg.org/web-animations/) ： Angular动画基准
+- 
 ### DOM
 - [Angular如何操作DOM](https://github.com/deepthan/blog-angular/issues/9)
-- [Angular如何获取dom节点]()
+- [Angular如何获取dom节点](https://github.com/deepthan/blog-angular/issues/85)
 - [Angular中其实你不需要直接操作DOM](https://github.com/deepthan/blog-angular/issues/17)
 
 
