@@ -21,7 +21,7 @@
     "rxjs": "^5.4.2",
     "tinymce": "^4.6.4",
     "zone.js": "^0.8.14",
-    "node-sass": "^3.4.0",
+    "node-sass": "^4.13.1",
     "bootstrap": "^3.3.7",
     "font-awesome": "^4.6.3"
   },
