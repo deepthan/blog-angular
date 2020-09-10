@@ -84,7 +84,8 @@ Angular回忆录
 - [group](https://github.com/deepthan/blog-angular/issues/27)
 - [AnimationOptions](https://github.com/deepthan/blog-angular/issues/28)
 - [Web Animations API](https://drafts.csswg.org/web-animations/) ： Angular动画基准
-- 
+
+
 ### DOM
 - [Angular如何操作DOM](https://github.com/deepthan/blog-angular/issues/9)
 - [Angular如何获取dom节点](https://github.com/deepthan/blog-angular/issues/85)
@@ -92,22 +93,22 @@ Angular回忆录
 
 
 ### 事件
-- [html事件写法]()
-- [js添加事件监听]()
-- [如何监听变量变化]()
-- [拖动和点击同时触发解决办法]()
+- [html事件写法](https://github.com/deepthan/blog-angular/issues/89)
+- [js添加事件监听](https://github.com/deepthan/blog-angular/issues/90)
+- [如何监听变量变化](https://github.com/deepthan/blog-angular/issues/91)
+- [拖动和点击同时触发解决办法](https://github.com/deepthan/blog-angular/issues/92)
 
 ### 表单表格
-- [获取表单的值]()
-- [设置表单值 FormControl setValue]()
-- [如何禁用表单]()
-- [如何提取table中tr为组件]()
+- [获取表单的值](https://github.com/deepthan/blog-angular/issues/93)
+- [设置表单值 FormControl setValue](https://github.com/deepthan/blog-angular/issues/94)
+- [如何禁用表单](https://github.com/deepthan/blog-angular/issues/95)
+- [如何提取table中tr为组件](https://github.com/deepthan/blog-angular/issues/96)
 - [Angular 2, NgModel and Custom Form Components](https://rangle.io/blog/angular-2-ngmodel-and-custom-form-components/)
 - [How to create custom input component with ngModel working in angular?](https://stackoverflow.com/questions/50618050/how-to-create-custom-input-component-with-ngmodel-working-in-angular-6)
 - [never-again-be-confused-when-implementing-controlvalueaccessor-in-angular-forms](https://indepth.dev/never-again-be-confused-when-implementing-controlvalueaccessor-in-angular-forms/)
 
 ### 安全 Security 
-- [Angular 安全管道使用方法]()
+- [Angular 安全管道使用方法](https://github.com/deepthan/blog-angular/issues/97)
 
 ### 变化检测
 - [edu-angular-change-detection](https://danielwiehl.github.io/edu-angular-change-detection/) : 图形化地显示变化过程
@@ -123,10 +124,10 @@ Angular回忆录
 - [How Angular uses NgZone/Zone.js for Dirty Checking](https://blog.bitsrc.io/how-angular-uses-ngzone-zone-js-for-dirty-checking-faa12f98cd49)
 
 ### 配置文件
-- [环境配置]()
-- [Angular热替换（cli & webpack）]()
-- [package.json里‘’^ ~“符号的意思]()
-- [tsconfig.json编译选项]()
+- [环境配置](https://github.com/deepthan/blog-angular/issues/2)
+- [Angular热替换（cli & webpack）](https://github.com/deepthan/blog-angular/issues/43)
+- [package.json里‘’^ ~“符号的意思](https://github.com/deepthan/blog-angular/issues/29)
+- [tsconfig.json编译选项](https://github.com/deepthan/blog-angular/issues/98)
 
 
 ### 摇树优化 tree shaking
@@ -144,16 +145,16 @@ Angular回忆录
 - [AOT build fails due to "JavaScript heap out of memory"](https://github.com/angular/angular-cli/issues/5618#issuecomment-431653364)
 
 ### 第三方库集成
-- [augury: ](): Angular调试和可视化工具
-- [集成富文本编辑器 tinymce]()
-- [tinymce使用方法和踩坑指南]()
-- [国际化集成ngx-translate]()
-- [集成echart]()
-- [集成font-awesome]()
-- [集成ng-zorro-antd]()
-- [集成push.js]()
-- [集成提示框]()
-- [集成预览表格内容js-xlsx]()
+- [augury: ](https://github.com/deepthan/blog-angular/issues/99): Angular调试和可视化工具
+- [集成富文本编辑器 tinymce](https://github.com/deepthan/blog-angular/issues/100)
+- [tinymce使用方法和踩坑指南](https://github.com/deepthan/blog-angular/issues/101)
+- [国际化集成ngx-translate](https://github.com/deepthan/blog-angular/issues/102)
+- [集成echart](https://github.com/deepthan/blog-angular/issues/103)
+- [集成font-awesome](https://github.com/deepthan/blog-angular/issues/104)
+- [集成ng-zorro-antd](https://github.com/deepthan/blog-angular/issues/105)
+- [集成push.js](https://github.com/deepthan/blog-angular/issues/106)
+- [集成提示框](https://github.com/deepthan/blog-angular/issues/107)
+- [集成预览表格内容js-xlsx](https://github.com/deepthan/blog-angular/issues/108)
 
 ### 代码规范
 - [angular项目如何做代码格式规范]()
