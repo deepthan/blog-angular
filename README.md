@@ -1,7 +1,5 @@
 <img src="https://angular.io/assets/images/logos/angular/angular.svg" width="240">
 
-#### *让您更轻松地使用angular*
-
 ##### 目前版本:
 ![version](https://img.shields.io/npm/v/@angular/core.svg?maxAge=2592000)
 
@@ -157,18 +155,18 @@ Angular回忆录
 - [集成预览表格内容js-xlsx](https://github.com/deepthan/blog-angular/issues/108)
 
 ### 代码规范
-- [angular项目如何做代码格式规范]()
-- [tslint规则]()
-- [TSLint 和 Codelyzer 核心规则]()
-- [Prettier]()
-- [prettier-vscode]()
+- [angular项目如何做代码格式规范](https://github.com/deepthan/blog-angular/issues/113)
+- [tslint规则](https://github.com/deepthan/blog-angular/issues/110)
+- [TSLint 和 Codelyzer 核心规则](https://github.com/deepthan/blog-angular/issues/109)
+- [Prettier](https://github.com/deepthan/blog-angular/issues/111)
+- [prettier-vscode](https://github.com/deepthan/blog-angular/issues/112)
 
 
 ### Angualr CDK
-- [如何做一个绝对定位]()
-- [虚拟滚动例子]()
-- [虚拟列表的一般实现]()
-- [ConnectionPositionPair]()
+- [Angular cdk如何做一个以父元素为基准的绝对定位](https://github.com/deepthan/blog-angular/issues/114)
+- [虚拟滚动例子](https://github.com/deepthan/blog-angular/issues/115)
+- [虚拟列表的一般实现](https://github.com/deepthan/blog-angular/issues/116)
+- [ConnectionPositionPair](https://github.com/deepthan/blog-angular/issues/117)
 - [拖拽](https://material.angular.io/cdk/drag-drop/examples)
 - [CDK系列教程](https://www.jianshu.com/p/4885b1a4c0c9)
 
