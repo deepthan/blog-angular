@@ -201,13 +201,13 @@ Angular回忆录
 
 
 ### 单元测试 Unit Test
-- [单元测试方法]()
-- [单元测试案例]()
+- [单元测试方法](https://github.com/deepthan/blog-angular/issues/142)
+- [单元测试案例](https://github.com/deepthan/blog-angular/issues/143)
 
 ###  端到端测试 E2E
-- [Angular e2e 介绍]()
-- [E2E测试]()
-- [E2E报错]()
+- [Angular e2e 介绍](https://github.com/deepthan/blog-angular/issues/144)
+- [E2E测试](https://github.com/deepthan/blog-angular/issues/145)
+- [E2E报错](https://github.com/deepthan/blog-angular/issues/146)
 - [protractor-styleguide](https://github.com/CarmenPopoviciu/protractor-styleguide) : 编码风格指南
 - [protractortest 官网](http://www.protractortest.org/#/)
 - [tutorial](http://www.protractortest.org/#/tutorial) : E2E教学
@@ -218,8 +218,8 @@ Angular回忆录
 - [Automate End to end (e2e) testing for Angular 7 using Protractor & Jasmine](https://medium.com/@dhormale/automate-end-to-end-e2e-testing-for-angular-7-using-protractor-jasmine-4ce171aaeedc)
 
 ### Angular 升级
-- [Angular 8新增了哪些功能]()
-- [升级angualr8项目需要做的更改]()
+- [Angular 8新增了哪些功能](https://github.com/deepthan/blog-angular/issues/147)
+- [升级angualr8项目需要做的更改](https://github.com/deepthan/blog-angular/issues/148)
 - [A版本到B版本需要修改哪些](https://angular-update-guide.firebaseapp.com/)
 - [Angular更新日志](https://github.com/angular/angular/blob/master/CHANGELOG.md)
 - [弃用的 API 和特性](https://angular.cn/guide/deprecations)
@@ -230,14 +230,14 @@ Angular回忆录
 - [Server Side Rendering with Angular Universal](https://www.digitalocean.com/community/tutorials/angular-angular-universal)
 
 ### 实用技巧
-- [hidden属性]()
-- [获取document、window]()
-- [包的加载速度优化]()
-- [如何覆盖第三方库css]()
-- [如何换个端口启动项目？]()
-- [如何让别人可以访问自己本地启动的服务]()
-- [项目中引入图片之类静态资源文件方法]()
-- [在页面打印出json对象]()
+- [hidden属性](https://github.com/deepthan/blog-angular/issues/149)
+- [获取document、window](https://github.com/deepthan/blog-angular/issues/150)
+- [包的加载速度优化](https://github.com/deepthan/blog-angular/issues/151)
+- [如何覆盖第三方库css](https://github.com/deepthan/blog-angular/issues/152)
+- [如何换个端口启动项目？](https://github.com/deepthan/blog-angular/issues/153)
+- [如何让别人可以访问自己本地启动的服务](https://github.com/deepthan/blog-angular/issues/154)
+- [项目中引入图片之类静态资源文件方法](https://github.com/deepthan/blog-angular/issues/155)
+- [在页面打印出json对象](https://github.com/deepthan/blog-angular/issues/156)
 - [github上搜索angular的正确姿势](https://github.com/search?utf8=%E2%9C%93&q=topic:angular&type=Repositories&ref=searchresults)
 - [how-to-use-angular-console](https://auth0.com/blog/how-to-use-angular-console/)
 - [48-answers-on-stack-overflow-to-the-most-popular-angular-questions](https://www.freecodecamp.org/news/48-answers-on-stack-overflow-to-the-most-popular-angular-questions-52f9eb430ab0/)
